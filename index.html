@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grade 6 Exam Revision (Vanuatu)</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b1220'/%3E%3Cpath d='M8 9h16v14H8z' fill='%23e8eefc'/%3E%3Cpath d='M11 12h10M11 16h7M11 20h9' stroke='%237c5cff' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="container header-row">
+      <div class="brand">
+        <div class="brand-title">Exam Revision</div>
+        <div class="brand-subtitle">Grade 6 &bull; Vanuatu &bull; Week-Ready</div>
+      </div>
+      <div class="header-actions">
+        <button id="btnOpenProgress" class="btn btn-secondary" type="button">
+          Progress
+        </button>
+        <button id="btnResetProgress" class="btn btn-ghost" type="button" title="Clear saved progress">
+          Reset Progress
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ============ HOME SCREEN ============ -->
+    <section id="screenHome" class="screen">
+      <div class="hero">
+        <h1>Study the lesson, then practise the exam questions</h1>
+        <p class="muted">
+          Start with subject lessons and source links, then take a topic test or mixed mock exam.
+        </p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h2>1) Study Lessons</h2>
+          <p class="muted">Read the Grade 6 notes for every subject topic, view worked examples, and open tutorial source links.</p>
+
+          <div class="form-row">
+            <button id="btnOpenLessons" class="btn btn-primary" type="button">
+              Open Lesson Library
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>2) Topic Test</h2>
+          <p class="muted">Pick a subject and a topic. You&rsquo;ll get a short lesson, then MCQ and short-answer questions.</p>
+
+          <div class="form-row">
+            <label for="selectSubject">Subject</label>
+            <select id="selectSubject" class="select"></select>
+          </div>
+
+          <div class="form-row">
+            <label for="selectTopic">Topic</label>
+            <select id="selectTopic" class="select"></select>
+          </div>
+
+          <div class="form-row">
+            <label for="topicQuizMode">Quiz mode</label>
+            <select id="topicQuizMode" class="select">
+              <option value="exam" selected>Exam practice (answers at end)</option>
+              <option value="learning">Learning mode (peek at answers)</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <button id="btnStartTopic" class="btn btn-primary" type="button">
+              Start Topic Test
+            </button>
+          </div>
+
+          <div class="progress-mini">
+            <div class="muted">Saved progress (this device)</div>
+            <div id="topicProgressLine" class="mono small"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>3) Mock Exam</h2>
+          <p class="muted">A mixed exam across subjects to check overall mastery.</p>
+
+          <div class="form-row">
+            <label for="mockScope">Scope</label>
+            <select id="mockScope" class="select"></select>
+            <div id="mockScopeHint" class="hint small muted"></div>
+          </div>
+
+          <div class="form-row">
+            <label for="mockDuration">Timing</label>
+            <select id="mockDuration" class="select">
+              <option value="0" selected>Untimed</option>
+              <option value="30">30 minutes</option>
+              <option value="60">1 hour</option>
+              <option value="90">1 hour 30 minutes</option>
+              <option value="120">2 hours</option>
+              <option value="custom">Custom minutes</option>
+            </select>
+          </div>
+
+          <div id="mockCustomDurationRow" class="form-row" hidden>
+            <label for="mockCustomMinutes">Custom time limit</label>
+            <input id="mockCustomMinutes" class="input" type="number" min="5" max="240" step="5" value="45" />
+            <div class="hint small muted">Enter between 5 and 240 minutes.</div>
+          </div>
+
+          <div class="form-row" hidden>
+            <label for="mockMode">Timing</label>
+            <select id="mockMode" class="select">
+              <option value="normal" selected>Normal (untimed)</option>
+              <option value="timed">Timed (challenging)</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="quizMode">Quiz mode</label>
+            <select id="quizMode" class="select">
+              <option value="exam" selected>Real mock exam mode (answers at end)</option>
+              <option value="learning">Learning mode (peek at answers)</option>
+            </select>
+            <div class="hint small muted">Exam mode shows answers only after the quiz is finished.</div>
+          </div>
+
+          <div class="form-row">
+            <label for="mockTotalQuestions">Total questions</label>
+            <input id="mockTotalQuestions" class="input" type="number" min="10" max="60" step="1" value="30" />
+            <div class="hint small muted">Default: 30 (about 6 per subject)</div>
+          </div>
+
+          <div class="form-row">
+            <button id="btnStartMock" class="btn btn-secondary" type="button">
+              Start Mock Exam
+            </button>
+          </div>
+
+          <div class="progress-mini">
+            <div class="muted">Latest mock result</div>
+            <div id="mockProgressLine" class="mono small"></div>
+          </div>
+        </div>
+
+        <div class="card card-examples">
+          <div class="card-examples-head">
+            <div>
+              <h2>4) Worked Examples</h2>
+              <p class="muted">A model answer + grading tip for every topic. Reveal the answer, mark what you know, print a booklet.</p>
+            </div>
+            <button id="btnOpenExamples" class="btn btn-primary" type="button">
+              Open Study Cards
+            </button>
+          </div>
+          <div class="examples-stats" id="examplesStats"></div>
+        </div>
+
+        <div class="card span-2">
+          <h2>How it works</h2>
+          <div class="muted" style="line-height:1.6">
+            1) Pick a topic or start a mock exam.
+            <br />
+            2) Before you answer, you&rsquo;ll see a <b>kid-friendly lesson</b> and a <b>worked example</b>.
+            <br />
+            3) Then you answer MCQ and short-answer questions.
+            <br />
+            4) In exam mode, model answers appear at the end. In learning mode, you can check each answer as you go.
+            <br />
+            5) Use <b>Worked Examples</b> to study model answers anytime.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROGRESS SCREEN ============ -->
+    <section id="screenProgress" class="screen" hidden>
+      <div class="progress-toolbar">
+        <button id="btnProgressBackHome" class="btn btn-ghost" type="button">&larr; Back to Home</button>
+        <h1 class="progress-title">Student Progress</h1>
+      </div>
+
+      <div id="progressSummary" class="progress-summary"></div>
+      <div id="progressSubjects" class="progress-subjects"></div>
+      <div id="progressRecent" class="progress-recent"></div>
+    </section>
+
+    <!-- ============ LESSON LIBRARY SCREEN ============ -->
+    <section id="screenLessons" class="screen" hidden>
+      <div class="lessons-toolbar">
+        <button id="btnLessonBackHome" class="btn btn-ghost" type="button">&larr; Back to Home</button>
+        <h1 class="lessons-title">Subject Topic Lessons</h1>
+      </div>
+
+      <div class="lesson-layout">
+        <aside class="lesson-picker">
+          <div id="lessonTopicList" class="lesson-topic-list"></div>
+          <div class="form-row">
+            <button id="btnMarkTopicComplete" class="btn btn-secondary" type="button">Mark Topic Complete</button>
+          </div>
+          <div class="form-row">
+            <button id="btnLessonStartQuiz" class="btn btn-primary" type="button">Take Topic Test</button>
+          </div>
+        </aside>
+
+        <article class="lesson-panel">
+          <div class="lesson-kicker">Revision lesson</div>
+          <h2 id="lessonTitle">Choose a topic</h2>
+          <div id="lessonStatus" class="lesson-status"></div>
+          <div id="lessonBody" class="lesson-body"></div>
+          <div id="lessonVisuals" class="lesson-visuals"></div>
+          <div id="lessonVideo" class="lesson-video"></div>
+          <div id="lessonVideoNotes" class="lesson-video-notes"></div>
+          <div id="lessonExamples" class="lesson-examples"></div>
+          <div id="lessonResources" class="lesson-resources"></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ WORKED EXAMPLES SCREEN ============ -->
+    <section id="screenExamples" class="screen" hidden>
+      <div class="examples-toolbar">
+        <button id="btnBackHome" class="btn btn-ghost" type="button">&larr; Back to Home</button>
+        <h1 class="examples-title">Worked Examples &mdash; Study Flashcards</h1>
+        <div class="examples-toolbar-actions">
+          <input id="examplesSearch" class="input examples-search" type="search" placeholder="Search all examples&hellip; e.g. malaria, perimeter" />
+          <button id="btnPrintBooklet" class="btn btn-secondary" type="button" title="Print all examples as a booklet">Print Booklet</button>
+        </div>
+      </div>
+
+      <div class="examples-progress-line" id="examplesProgressLine"></div>
+
+      <nav class="subject-tabs" id="subjectTabs" role="tablist"></nav>
+
+      <div class="examples-meta" id="examplesMeta"></div>
+
+      <div class="flashcards-grid" id="flashcardsGrid"></div>
+
+      <div class="examples-empty" id="examplesEmpty" hidden>
+        <p class="muted">No examples match your search. Try a different word.</p>
+      </div>
+    </section>
+
+    <!-- ============ QUIZ SCREEN ============ -->
+    <section id="screenQuiz" class="screen" hidden>
+      <div class="quiz-toolbar">
+        <button id="btnQuitQuiz" class="btn btn-ghost" type="button">&larr; Quit</button>
+        <div class="quiz-progress-info">
+          <span id="quizProgressText">Question 1 of 1</span>
+          <span class="quiz-sep">&middot;</span>
+          <span id="quizScoreText">Score: 0</span>
+          <span id="quizTimerText" class="quiz-timer" hidden></span>
+        </div>
+      </div>
+      <div class="quiz-progress-bar"><div id="quizProgressBar" class="quiz-progress-fill"></div></div>
+
+      <!-- Pre-quiz teaching: lesson + worked example -->
+      <div id="quizPreTeach" class="quiz-preteach" hidden>
+        <div class="quiz-preteach-head">
+          <div>
+            <div class="quiz-preteach-kicker" id="quizPreTeachKicker">Lesson</div>
+            <h2 id="quizPreTeachTitle">Topic</h2>
+          </div>
+          <button id="btnPreTeachStart" class="btn btn-primary" type="button">Start Quiz &rarr;</button>
+        </div>
+        <div id="quizPreTeachLesson" class="quiz-preteach-lesson"></div>
+        <div id="quizPreTeachVisuals" class="lesson-visuals quiz-preteach-visuals"></div>
+
+        <div class="quiz-preteach-example" id="quizPreTeachExample">
+          <div class="quiz-preteach-example-label">Worked Example</div>
+          <div class="quiz-preteach-example-q" id="quizPreTeachExQ"></div>
+          <div class="quiz-preteach-example-a" id="quizPreTeachExA"></div>
+          <div class="quiz-preteach-example-tip" id="quizPreTeachExTip"></div>
+        </div>
+        <div id="quizPreTeachVideo" class="lesson-video quiz-preteach-video"></div>
+        <div id="quizPreTeachVideoNotes" class="lesson-video-notes quiz-preteach-video-notes"></div>
+        <div id="quizPreTeachResources" class="quiz-preteach-resources"></div>
+      </div>
+
+      <!-- Question -->
+      <div id="quizQuestionWrap" class="quiz-question-wrap" hidden>
+        <div class="quiz-chips">
+          <span id="quizSubjectChip" class="quiz-chip"></span>
+          <span id="quizTopicChip" class="quiz-chip quiz-chip-topic"></span>
+        </div>
+        <div id="quizQuestion" class="quiz-question"></div>
+        <div id="quizOptions" class="quiz-options"></div>
+        <div id="quizShortAnswerWrap" class="quiz-short-answer-wrap" hidden>
+          <textarea id="quizShortAnswer" class="quiz-short-answer" rows="7" placeholder="Write your short answer here..."></textarea>
+          <div class="quiz-short-answer-actions">
+            <button id="btnSubmitShortAnswer" class="btn btn-primary" type="button">Submit Answer</button>
+          </div>
+        </div>
+
+        <div id="quizFeedback" class="quiz-feedback" hidden>
+          <div class="quiz-feedback-head">
+            <span id="quizFeedbackIcon" class="quiz-feedback-icon"></span>
+            <span id="quizFeedbackTitle" class="quiz-feedback-title"></span>
+          </div>
+          <div class="quiz-feedback-block">
+            <div class="quiz-feedback-label">Model answer</div>
+            <div id="quizFeedbackAnswer" class="quiz-feedback-text"></div>
+          </div>
+          <div class="quiz-feedback-block quiz-feedback-tip-block">
+            <div class="quiz-feedback-label quiz-feedback-tip-label">Grading tip</div>
+            <div id="quizFeedbackTip" class="quiz-feedback-text"></div>
+          </div>
+          <div class="quiz-feedback-actions">
+            <button id="btnNextQuestion" class="btn btn-primary" type="button">Next &rarr;</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Result -->
+      <div id="quizResult" class="quiz-result" hidden>
+        <h2 id="quizResultTitle">Quiz complete!</h2>
+        <div id="quizResultScore" class="quiz-result-score"></div>
+        <p id="quizResultMsg" class="muted"></p>
+        <div id="quizReview" class="quiz-review"></div>
+        <div class="quiz-result-actions">
+          <button id="btnQuizRetry" class="btn btn-secondary" type="button">Retry</button>
+          <button id="btnQuizHome" class="btn btn-primary" type="button">Back to Home</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ PRINT BOOKLET (hidden on screen, shown when printing booklet) ============ -->
+  <div id="printBooklet" class="print-booklet" hidden></div>
+
+  <script src="./tutorial.js"></script>
+</body>
+</html>

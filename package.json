@@ -1,0 +1,11 @@
+{
+  "name": "grade-6-exam-revision",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Grade 6 exam revision tool for parents and students.",
+  "scripts": {
+    "build": "node tools/build-static.js",
+    "start": "npx serve dist"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,480 @@
+{
+  "notes": {
+    "format": "worked-examples",
+    "language": "en",
+    "purpose": "Question + model answer + grading tip for every topic. Shown as reveal-cards and printable booklet.",
+    "subjects": ["Maths", "English", "Social Science", "Health", "Science"]
+  },
+  "examples": {
+    "Maths": {
+      "Place Value": [
+        {
+          "question": "Write down the value of the underlined digit in the number: 4,<u>7</u>21,503.",
+          "answer": "700,000 (or Seven Hundred Thousand)",
+          "tip": "Writing either the numerical value or the word name gets full marks."
+        },
+        {
+          "question": "What number do you get if you have 3 Millions, 5 Ten Thousands, 2 Hundreds, and 6 Ones?",
+          "answer": "3,050,206",
+          "tip": "Watch out for columns that were not mentioned (like Hundred Thousands or Tens) — they must be filled with a placeholder zero 0."
+        }
+      ],
+      "Angles": [
+        {
+          "question": "Classify the following angle based on its measurement: 135°.",
+          "answer": "Obtuse angle",
+          "tip": "It is obtuse because it is larger than 90° but smaller than 180°."
+        },
+        {
+          "question": "If a perfectly straight line (180°) is split into two angles, and one angle measures 70°, what is the measure of the second angle?",
+          "answer": "180° − 70° = 110°",
+          "tip": "Always show the subtraction work to guarantee full marks."
+        }
+      ],
+      "Subtraction / Addition": [
+        {
+          "question": "Solve: 435,120 + 182,945.",
+          "answer": "618,065",
+          "tip": "Align columns vertically and write down small numbers above when carrying over values."
+        },
+        {
+          "question": "A farmer has 5,000 Vatu. He spends 1,250 Vatu on tools. How much Vatu does he have left?",
+          "answer": "5,000 − 1,250 = 3,750 Vatu",
+          "tip": "Don't forget to include the unit \"Vatu\" at the end of the answer!"
+        }
+      ],
+      "Multiplying": [
+        {
+          "question": "Calculate: 125 × 12.",
+          "answer": "125 × 2 = 250\n125 × 10 = 1250\n250 + 1250 = 1,500",
+          "tip": "When multiplying by the tens digit, remember to add a placeholder 0 on the second line."
+        },
+        {
+          "question": "A shop buys 15 boxes of biscuits. If each box contains exactly 10 biscuits, how many biscuits are there altogether?",
+          "answer": "15 × 10 = 150 biscuits",
+          "tip": "Multiply by 10 quickly by just adding a zero to the end of the first number."
+        }
+      ],
+      "Area / Perimeter": [
+        {
+          "question": "Find the perimeter of a rectangular garden that is 10 meters long and 5 meters wide.",
+          "answer": "Perimeter = 10m + 10m + 5m + 5m = 30 meters",
+          "tip": "Perimeter means the distance all the way around, so you must add all four sides together."
+        },
+        {
+          "question": "Calculate the total area of a square room where every side is exactly 4 meters long.",
+          "answer": "Area = 4m × 4m = 16 m² (or 16 square meters)",
+          "tip": "Area always uses square units, so remember to write m² instead of just m."
+        }
+      ],
+      "Number Pattern": [
+        {
+          "question": "Identify the rule and find the next number in this sequence: 2, 5, 8, 11, …",
+          "answer": "Rule = Add 3; Next number = 14",
+          "tip": "Check the gap between multiple numbers to prove the rule works for the whole pattern."
+        },
+        {
+          "question": "Find the missing number in this pattern: 30, 25, 20, …, 10.",
+          "answer": "15",
+          "tip": "The numbers are decreasing, so the rule is subtract 5."
+        }
+      ]
+    },
+
+    "English": {
+      "Novel": [
+        {
+          "question": "Read a passage and name its physical setting.",
+          "answer": "A small village in Santo during a rainy afternoon.",
+          "tip": "A setting answer must include both the place and the time."
+        },
+        {
+          "question": "Match the term Plot to its correct definition.",
+          "answer": "Plot = The events that happen in a story.",
+          "tip": "Connect terms clearly with lines or write them side-by-side."
+        }
+      ],
+      "Media Explosion": [
+        {
+          "question": "If you read a poster telling people where to get a free malaria net, is this an advertisement or a public notice?",
+          "answer": "It is a public notice because it is trying to inform and protect the health of the community, not sell a product for money.",
+          "tip": "Always give a reason explaining why it is public good versus commercial sales."
+        },
+        {
+          "question": "Look at a news article about clean water and write down its target audience.",
+          "answer": "Parents, families, and village communities.",
+          "tip": "Think about who needs to act on the information most."
+        }
+      ],
+      "Grammar (Noun, Verb)": [
+        {
+          "question": "Identify the nouns and verbs in this sentence: \"The boy caught a fish.\"",
+          "answer": "Nouns = boy, fish; Verb = caught",
+          "tip": "Separate your noun list from your verb list so it is easy to mark."
+        },
+        {
+          "question": "Fill in the blank with an action verb: \"The students ________ to school yesterday.\"",
+          "answer": "walked (or ran, traveled)",
+          "tip": "Pay attention to time keywords like \"yesterday\" — the verb must be written in the past tense (usually ending in -ed)."
+        }
+      ],
+      "Vocabulary": [
+        {
+          "question": "What is a synonym for \"large\" and an antonym for \"hot\"?",
+          "answer": "Synonym = big; Antonym = cold",
+          "tip": "Keep answers brief. Synonym means the same; antonym means the opposite."
+        },
+        {
+          "question": "Use context clues to guess the bold word: \"The food was so delicious that everyone ate two full plates and left nothing behind.\"",
+          "answer": "Delicious means tasting very good.",
+          "tip": "Use the clue in the sentence (\"everyone ate two full plates\") to explain your guess."
+        }
+      ],
+      "Reading Comprehension": [
+        {
+          "question": "\"Leimara looked up at the dark grey clouds, grabbed her umbrella, and ran out the door.\" Infer what the weather was about to be like.",
+          "answer": "It was about to rain heavily.",
+          "tip": "The sentence does not explicitly say \"rain,\" but grabbing an umbrella and seeing dark clouds are the context clues you use to make your inference."
+        },
+        {
+          "question": "State one literal fact directly mentioned in the sentence above.",
+          "answer": "Leimara grabbed her umbrella.",
+          "tip": "A literal fact must be written exactly as it appears in the text passage."
+        }
+      ],
+      "Punctuation": [
+        {
+          "question": "Rewrite with correct punctuation: what time is the bus coming asked silas",
+          "answer": "\"What time is the bus coming?\" asked Silas.",
+          "tip": "Check for three things: speech marks around the spoken words, a question mark, and a capital letter for the name Silas."
+        },
+        {
+          "question": "Insert commas: \"I need to buy paper pens and a ruler.\"",
+          "answer": "\"I need to buy paper, pens, and a ruler.\"",
+          "tip": "Put commas after each item in a list except for the final item."
+        }
+      ]
+    },
+
+    "Social Science": {
+      "Geographers Tools": [
+        {
+          "question": "If you face North, what direction is on your right hand side?",
+          "answer": "East",
+          "tip": "Remember the compass points clockwise: North, East, South, West."
+        },
+        {
+          "question": "Name the tool used to track changes in air pressure before a storm.",
+          "answer": "A barometer",
+          "tip": "Spell geography tool names carefully."
+        }
+      ],
+      "Representing Geography": [
+        {
+          "question": "If a map scale says 1 cm = 2 km, what real distance is a line that measures 5 cm?",
+          "answer": "5 × 2 = 10 kilometers",
+          "tip": "Multiply the map measurements by the scale number."
+        },
+        {
+          "question": "Why do maps have a Legend or Key?",
+          "answer": "To explain what the symbols and colors on the map mean.",
+          "tip": "Give a clear explanation of its purpose."
+        }
+      ],
+      "Creating Maps of Vanuatu": [
+        {
+          "question": "Name the most southern province of Vanuatu.",
+          "answer": "Tafea Province",
+          "tip": "Learn all 6 provinces from north to south."
+        },
+        {
+          "question": "Which island contains the town of Luganville?",
+          "answer": "Espiritu Santo (in Sanma Province)",
+          "tip": "Know your major towns and which islands they belong to."
+        }
+      ],
+      "The New Hebrides Condominium": [
+        {
+          "question": "What names were given to the two resident commissioners during the Condominium?",
+          "answer": "The British Resident Commissioner and the French Resident Commissioner.",
+          "tip": "Both British and French roles must be mentioned."
+        },
+        {
+          "question": "State one problem of having a Condominium rule.",
+          "answer": "It was very confusing because there were two different legal systems and two different currencies used at the same time.",
+          "tip": "Focus on the confusion or extra costs of running a dual system."
+        }
+      ],
+      "Road to Independence": [
+        {
+          "question": "What was the old colonial name of Vanuatu before 1980?",
+          "answer": "The New Hebrides",
+          "tip": "Always write historical names with capital letters."
+        },
+        {
+          "question": "Who wrote the words to the national anthem Yumi, Yumi, Yumi?",
+          "answer": "Francois Vincent Ayssav",
+          "tip": "Keep facts accurate for historical questions."
+        }
+      ],
+      "Origin of Culture / Protecting our Heritage": [
+        {
+          "question": "Why is sand drawing protected by UNESCO?",
+          "answer": "Because it is a unique traditional art form that preserves our history and custom stories without written words.",
+          "tip": "Show that culture is valuable for identity and history."
+        },
+        {
+          "question": "Give one way to protect custom languages.",
+          "answer": "By speaking our local language at home with our families.",
+          "tip": "Provide a practical, everyday solution."
+        }
+      ],
+      "Preserve the Environment": [
+        {
+          "question": "What custom leaf is often used to show a Tabu area?",
+          "answer": "The Namele leaf",
+          "tip": "Use local cultural terms correctly."
+        },
+        {
+          "question": "Name a problem that hurts fish habitats.",
+          "answer": "Throwing plastic rubbish into the sea.",
+          "tip": "Keep your environmental problems realistic and clear."
+        }
+      ]
+    },
+
+    "Health": {
+      "Food and Drinking Packaging": [
+        {
+          "question": "What should you do if a can of meat is bulging or dented?",
+          "answer": "Do not eat it, throw it away. A bulging can means bad bacteria are growing inside.",
+          "tip": "Explain the danger along with your action."
+        },
+        {
+          "question": "Where do you find the expiry date on a bottle?",
+          "answer": "Printed on the neck of the bottle or on the main label.",
+          "tip": "State a clear, physical location."
+        }
+      ],
+      "Fresh Food": [
+        {
+          "question": "Name two items from a local garden that give us good nutrients.",
+          "answer": "Island cabbage and manioc.",
+          "tip": "Use fresh local garden ingredients."
+        },
+        {
+          "question": "Why must you wash knives after cutting raw meat?",
+          "answer": "To stop invisible germs from transferring onto other foods (cross-contamination).",
+          "tip": "Use the concept of stopping germ spread."
+        }
+      ],
+      "Making Choices - What and Where": [
+        {
+          "question": "Why are local fruits better than store sweets?",
+          "answer": "Local fruits have natural vitamins and fibers, while store sweets contain chemicals and refined sugars that harm our teeth and health.",
+          "tip": "Compare both items directly to show the health difference."
+        },
+        {
+          "question": "What illness can you get from drinking too much fizzy soda over many years?",
+          "answer": "Type 2 Diabetes",
+          "tip": "Name a specific lifestyle disease."
+        }
+      ],
+      "Special Food Needs": [
+        {
+          "question": "What should a school do if a student is highly allergic to peanuts?",
+          "answer": "Tell all students not to bring peanuts to school to keep that student safe.",
+          "tip": "Propose a helpful safety solution."
+        },
+        {
+          "question": "Why do elderly people need soft foods?",
+          "answer": "They might have lost their teeth and have trouble chewing hard foods.",
+          "tip": "Focus on the physical needs of the person."
+        }
+      ],
+      "Keep it Balanced": [
+        {
+          "question": "What food group does chicken belong to?",
+          "answer": "Body-building foods (Proteins)",
+          "tip": "Learn the three groups: Energy, Protective, Body-Building."
+        },
+        {
+          "question": "Give an example of a protective food item.",
+          "answer": "A ripe papaya (or island cabbage)",
+          "tip": "Any local fruit or vegetable is correct."
+        }
+      ],
+      "Clean Drinking Water": [
+        {
+          "question": "How long should water bubble when boiling it to make it safe?",
+          "answer": "For at least one full minute.",
+          "tip": "Include the specific time requirement."
+        },
+        {
+          "question": "What does the sun do to water during SODIS treatment?",
+          "answer": "The UV rays from the sunlight kill the dangerous germs inside the clear bottle.",
+          "tip": "Explain that the sun's rays act as the germ-killer."
+        }
+      ],
+      "Immunisation": [
+        {
+          "question": "What are the items called that your body builds after getting a vaccine?",
+          "answer": "Antibodies",
+          "tip": "Use correct medical terms when possible."
+        },
+        {
+          "question": "True or False: Vaccines give you the real, dangerous illness.",
+          "answer": "False",
+          "tip": "Ensure the student knows vaccines are safe."
+        }
+      ],
+      "Malaria": [
+        {
+          "question": "Why should we clear empty coconut shells from around the house?",
+          "answer": "Because they collect rainwater where mosquitoes lay eggs and breed.",
+          "tip": "Connect the object directly to standing water and breeding habits."
+        },
+        {
+          "question": "When do malaria mosquitoes mostly bite?",
+          "answer": "From evening/dusk until night time.",
+          "tip": "Specify the correct time of day."
+        }
+      ],
+      "Diabetes": [
+        {
+          "question": "Name a lifestyle habit that causes diabetes.",
+          "answer": "Eating too many processed sweet foods and not doing any physical exercise.",
+          "tip": "Include both diet and lack of movement."
+        },
+        {
+          "question": "What hormone does the body use to control blood sugar?",
+          "answer": "Insulin",
+          "tip": "This is an excellent bonus fact for an exam."
+        }
+      ],
+      "Disease": [
+        {
+          "question": "Is Tuberculosis (TB) an infectious disease or a lifestyle disease?",
+          "answer": "Infectious disease (it spreads from person to person through the air).",
+          "tip": "Categorize correctly and note how it spreads."
+        },
+        {
+          "question": "Give a simple way to stop spreading the common cold.",
+          "answer": "Cover your mouth with your elbow when you cough.",
+          "tip": "Name a reliable everyday hygiene habit."
+        }
+      ]
+    },
+
+    "Science": {
+      "What is Compost": [
+        {
+          "question": "Why shouldn't you put battery items inside a compost pile?",
+          "answer": "Because batteries contain dangerous chemicals that poison the compost and the soil.",
+          "tip": "Keep synthetic pollutants completely out of the response."
+        },
+        {
+          "question": "What type of waste breaks down naturally in compost?",
+          "answer": "Organic or biodegradable waste (things that were once alive).",
+          "tip": "Use the scientific terms \"organic\" or \"biodegradable\"."
+        }
+      ],
+      "How Composting Process Works": [
+        {
+          "question": "Why does a compost pile need moisture?",
+          "answer": "Microbes and decomposers need water to survive and break down materials.",
+          "tip": "Show that moisture keeps the tiny worker bugs alive."
+        },
+        {
+          "question": "Give an example of a \"carbon\" item for compost.",
+          "answer": "Dry brown leaves (or shredded paper)",
+          "tip": "Carbon items are usually brown and dry."
+        }
+      ],
+      "Pest": [
+        {
+          "question": "What part of a plant do aphids attack?",
+          "answer": "They suck nutrients out of the green leaves and stems.",
+          "tip": "Describe the exact physical target on the crop plant."
+        },
+        {
+          "question": "What is a natural way to protect plants without chemical spray?",
+          "answer": "Hand-picking the bugs off the leaves or planting strong-smelling herbs nearby to scare them away.",
+          "tip": "Offer a safe, chemical-free option."
+        }
+      ],
+      "Friendly Organisms": [
+        {
+          "question": "What do bees collect from flowers?",
+          "answer": "Nectar and pollen.",
+          "tip": "Identify both elements collected by pollinators."
+        },
+        {
+          "question": "How do earthworms improve the soil quality?",
+          "answer": "Their waste adds natural nutrients that make the soil rich and fertile.",
+          "tip": "Focus on the nutritional value they add to the earth."
+        }
+      ],
+      "Living Things and the Environment": [
+        {
+          "question": "Name one abiotic factor in a garden.",
+          "answer": "Sunlight (or Soil / Water)",
+          "tip": "Abiotic means non-living environmental items."
+        },
+        {
+          "question": "What physical feature helps a bird fly in its habitat?",
+          "answer": "Light hollow bones and strong wings.",
+          "tip": "Name a specific body adaptation and explain its use."
+        }
+      ],
+      "Food Chain and Food Web": [
+        {
+          "question": "In a food chain, what eats a primary consumer?",
+          "answer": "A secondary consumer (usually a carnivore).",
+          "tip": "Use correct trophic level titles."
+        },
+        {
+          "question": "Draw a simple 3-step food chain using local island items.",
+          "answer": "Cabbage plant (Producer) → Caterpillar (Consumer) → Bird (Secondary Consumer)",
+          "tip": "Ensure arrows point in the direction of energy flow (from the eaten item to the eater)."
+        }
+      ],
+      "Photosynthesis": [
+        {
+          "question": "What green chemical captures sunlight in a leaf?",
+          "answer": "Chlorophyll",
+          "tip": "Spelling this vocabulary word correctly secures high scores."
+        },
+        {
+          "question": "What sugar do plants make during photosynthesis?",
+          "answer": "Glucose",
+          "tip": "Use the specific science word instead of just saying \"food\"."
+        }
+      ],
+      "Flowering Plants": [
+        {
+          "question": "What is the sticky top part of the female pistil called that catches pollen?",
+          "answer": "The stigma",
+          "tip": "Memorize flower diagram components."
+        },
+        {
+          "question": "How does wind help flowering plants?",
+          "answer": "It blows lightweight pollen grains from one flower to another for pollination.",
+          "tip": "Explain the environmental process clearly."
+        }
+      ],
+      "Respiratory and Circulatory System": [
+        {
+          "question": "What type of blood vessels take blood away from the heart?",
+          "answer": "Arteries",
+          "tip": "Arteries go Away; Veins bring blood back to the heart's valve systems."
+        },
+        {
+          "question": "What waste gas do our lungs breathe out?",
+          "answer": "Carbon Dioxide",
+          "tip": "Specify the full name of the gas rather than just saying \"bad air.\""
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1643 @@
+{
+  "notes": {
+    "format": "mixed-mcq-short-answer-quiz",
+    "language": "en",
+    "purpose": "MCQ and short-answer questions used by Topic Test and Mock Exam flows. Learning mode can reveal explanations during practice; mock exam mode shows answers at the end.",
+    "totalQuestions": 128
+  },
+  "questions": {
+    "Maths": {
+      "Place Value": [
+        {
+          "question": "What is the value of the underlined digit in 4,<u>7</u>21,503?",
+          "options": [
+            "7",
+            "7,000",
+            "70,000",
+            "700,000"
+          ],
+          "correctIndex": 3,
+          "explanation": "The 7 is in the Hundred Thousands column, so its value is 700,000."
+        },
+        {
+          "question": "Build the number: 3 Millions, 5 Ten Thousands, 2 Hundreds, 6 Ones. Which is correct?",
+          "options": [
+            "3,520,206",
+            "3,050,206",
+            "3,500,206",
+            "3,050,026"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unmentioned columns (Hundred Thousands, Tens) get a placeholder 0, giving 3,050,206."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Place Value.",
+          "modelAnswer": "Digits get their value from their position, not just their shape. Read large numbers by grouping digits into ones, thousands, millions, and so on.",
+          "keywords": [
+            "place",
+            "value",
+            "digits",
+            "their"
+          ],
+          "explanation": "A strong answer should mention Place Value clearly and include a correct supporting detail, such as: Read large numbers by grouping digits into ones, thousands, millions, and so on.",
+          "selfMark": true
+        }
+      ],
+      "Angles": [
+        {
+          "question": "An angle measures 135°. What type is it?",
+          "options": [
+            "Acute",
+            "Right",
+            "Obtuse",
+            "Reflex"
+          ],
+          "correctIndex": 2,
+          "explanation": "Greater than 90° but less than 180° = Obtuse."
+        },
+        {
+          "question": "A straight line (180°) is split into two angles. One is 70°. What is the other?",
+          "options": [
+            "90°",
+            "110°",
+            "120°",
+            "250°"
+          ],
+          "correctIndex": 1,
+          "explanation": "180° − 70° = 110°. Always show the subtraction."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Angles.",
+          "modelAnswer": "An angle measures the amount of turn between two lines or rays. Acute angles are smaller than 90 degrees; right angles are exactly 90 degrees.",
+          "keywords": [
+            "angles",
+            "angle",
+            "measures",
+            "amount",
+            "between"
+          ],
+          "explanation": "A strong answer should mention Angles clearly and include a correct supporting detail, such as: Acute angles are smaller than 90 degrees; right angles are exactly 90 degrees.",
+          "selfMark": true
+        }
+      ],
+      "Subtraction / Addition": [
+        {
+          "question": "Calculate 435,120 + 182,945.",
+          "options": [
+            "518,065",
+            "618,065",
+            "617,065",
+            "618,165"
+          ],
+          "correctIndex": 1,
+          "explanation": "Column addition with carrying gives 618,065."
+        },
+        {
+          "question": "A farmer has 5,000 Vatu and spends 1,250 Vatu on tools. How much is left?",
+          "options": [
+            "3,250 Vatu",
+            "3,750 Vatu",
+            "4,250 Vatu",
+            "6,250 Vatu"
+          ],
+          "correctIndex": 1,
+          "explanation": "5,000 − 1,250 = 3,750 Vatu. Always include the unit."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Subtraction / Addition.",
+          "modelAnswer": "Line up digits by place value before adding or subtracting. Addition may require carrying into the next column.",
+          "keywords": [
+            "subtraction",
+            "addition",
+            "digits",
+            "place",
+            "value",
+            "before"
+          ],
+          "explanation": "A strong answer should mention Subtraction / Addition clearly and include a correct supporting detail, such as: Addition may require carrying into the next column.",
+          "selfMark": true
+        }
+      ],
+      "Multiplying": [
+        {
+          "question": "Calculate 125 × 12.",
+          "options": [
+            "1,250",
+            "1,400",
+            "1,500",
+            "1,625"
+          ],
+          "correctIndex": 2,
+          "explanation": "125×2 = 250; 125×10 = 1,250; sum = 1,500. Don't forget the placeholder 0 on the tens line."
+        },
+        {
+          "question": "A shop buys 15 boxes of biscuits, each box has 10 biscuits. How many biscuits total?",
+          "options": [
+            "15",
+            "25",
+            "150",
+            "1,500"
+          ],
+          "correctIndex": 2,
+          "explanation": "15 × 10 = 150. Multiplying by 10 adds one zero."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Multiplying.",
+          "modelAnswer": "Multiplication means equal groups and repeated addition. For two-digit multiplication, multiply by the ones, then by the tens, then add the partial products.",
+          "keywords": [
+            "multiplying",
+            "multiplication",
+            "means",
+            "equal",
+            "groups"
+          ],
+          "explanation": "A strong answer should mention Multiplying clearly and include a correct supporting detail, such as: For two-digit multiplication, multiply by the ones, then by the tens, then add the partial products.",
+          "selfMark": true
+        }
+      ],
+      "Area / Perimeter": [
+        {
+          "question": "A rectangle is 10 m long and 5 m wide. What is its perimeter?",
+          "options": [
+            "15 m",
+            "30 m",
+            "50 m",
+            "20 m"
+          ],
+          "correctIndex": 1,
+          "explanation": "Perimeter = 10+10+5+5 = 30 m. Add all four sides."
+        },
+        {
+          "question": "A square room has sides of 4 m. What is its area?",
+          "options": [
+            "8 m²",
+            "12 m²",
+            "16 m²",
+            "16 m"
+          ],
+          "correctIndex": 2,
+          "explanation": "Area = 4 × 4 = 16 m². Area always uses square units."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Area / Perimeter.",
+          "modelAnswer": "Perimeter is the distance around the outside edge of a shape. Area is the amount of space inside a flat shape.",
+          "keywords": [
+            "area",
+            "perimeter",
+            "distance",
+            "around",
+            "outside"
+          ],
+          "explanation": "A strong answer should mention Area / Perimeter clearly and include a correct supporting detail, such as: Area is the amount of space inside a flat shape.",
+          "selfMark": true
+        }
+      ],
+      "Number Pattern": [
+        {
+          "question": "Find the next number: 2, 5, 8, 11, …",
+          "options": [
+            "12",
+            "13",
+            "14",
+            "15"
+          ],
+          "correctIndex": 2,
+          "explanation": "Rule is +3; 11 + 3 = 14."
+        },
+        {
+          "question": "Find the missing number: 30, 25, 20, …, 10.",
+          "options": [
+            "5",
+            "10",
+            "15",
+            "20"
+          ],
+          "correctIndex": 2,
+          "explanation": "Rule is −5; 20 − 5 = 15."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Number Pattern.",
+          "modelAnswer": "A number pattern follows a rule. Compare neighbouring numbers to find whether the rule adds, subtracts, multiplies, or divides.",
+          "keywords": [
+            "number",
+            "pattern",
+            "follows",
+            "compare"
+          ],
+          "explanation": "A strong answer should mention Number Pattern clearly and include a correct supporting detail, such as: Compare neighbouring numbers to find whether the rule adds, subtracts, multiplies, or divides.",
+          "selfMark": true
+        }
+      ]
+    },
+    "English": {
+      "Novel": [
+        {
+          "question": "Which best describes the SETTING of a story?",
+          "options": [
+            "The people who act",
+            "Where and when it happens",
+            "The events that happen",
+            "The main problem"
+          ],
+          "correctIndex": 1,
+          "explanation": "Setting = place + time. Plot = events. Characters = people."
+        },
+        {
+          "question": "Which term means 'the events that happen in a story'?",
+          "options": [
+            "Setting",
+            "Character",
+            "Plot",
+            "Theme"
+          ],
+          "correctIndex": 2,
+          "explanation": "Plot = sequence of events. Setting = where/when."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Novel.",
+          "modelAnswer": "Plot means the sequence of story events from beginning to ending. Characters change or reveal traits through actions, speech, and choices.",
+          "keywords": [
+            "novel",
+            "means",
+            "sequence",
+            "story",
+            "events"
+          ],
+          "explanation": "A strong answer should mention Novel clearly and include a correct supporting detail, such as: Characters change or reveal traits through actions, speech, and choices.",
+          "selfMark": true
+        },
+        {
+          "type": "short",
+          "question": "Read the passage, then answer in 2 sentences:\n\nMalia opened the old library book and found a dry leaf between the pages. On the first page, someone had written, \"Return this when the rain stops.\" Outside, thunder rolled over the hills.\n\nWhat is the setting, and what clue shows it?",
+          "modelAnswer": "The setting is inside a library or a place with library books during stormy/rainy weather. The clue is the thunder outside and the note about the rain stopping.",
+          "keywords": [
+            "library",
+            "rain",
+            "thunder",
+            "storm"
+          ],
+          "explanation": "Setting tells where and when a story happens. Use details from the passage as evidence.",
+          "selfMark": true
+        },
+        {
+          "question": "In the passage about Malia, what can you infer about the weather?",
+          "options": [
+            "It is hot and dry",
+            "A storm or heavy rain is happening",
+            "It is snowing",
+            "There is no wind or sound"
+          ],
+          "correctIndex": 1,
+          "explanation": "Thunder and the note about rain are clues that stormy weather is happening."
+        }
+      ],
+      "Media Explosion": [
+        {
+          "question": "A poster tells people where to get a free malaria net. What is it?",
+          "options": [
+            "Advertisement",
+            "Public notice",
+            "Sales flyer",
+            "Movie poster"
+          ],
+          "correctIndex": 1,
+          "explanation": "It informs and protects the community — not selling a product. So it's a public notice."
+        },
+        {
+          "question": "A news article about clean water is most likely aimed at which audience?",
+          "options": [
+            "Tourists only",
+            "Babies",
+            "Parents, families, and villages",
+            "Bank managers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Those who need to act on water safety are parents, families, and village communities."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Media Explosion.",
+          "modelAnswer": "Visual media uses pictures, layout, colour, headings, and short text to communicate quickly. Purpose may be to inform, persuade, warn, entertain, or sell.",
+          "keywords": [
+            "media",
+            "explosion",
+            "visual",
+            "pictures",
+            "layout"
+          ],
+          "explanation": "A strong answer should mention Media Explosion clearly and include a correct supporting detail, such as: Purpose may be to inform, persuade, warn, entertain, or sell.",
+          "selfMark": true
+        },
+        {
+          "type": "short",
+          "question": "Short answer: A poster says, \"Boil drinking water after heavy rain.\" Who is the audience and what is the purpose?",
+          "modelAnswer": "The audience is families or village/community members. The purpose is to protect people by telling them how to make drinking water safer after rain.",
+          "keywords": [
+            "families",
+            "community",
+            "protect",
+            "safe",
+            "water"
+          ],
+          "explanation": "Media questions often ask who the message is for and why it was made.",
+          "selfMark": true
+        },
+        {
+          "question": "Which feature would make a health poster easier to understand?",
+          "options": [
+            "Tiny writing only",
+            "A clear heading, picture, and simple steps",
+            "No title",
+            "A secret message"
+          ],
+          "correctIndex": 1,
+          "explanation": "Public notices should be clear, quick to read, and useful for the community."
+        }
+      ],
+      "Grammar (Noun, Verb)": [
+        {
+          "question": "In 'The boy caught a fish', which are the nouns?",
+          "options": [
+            "boy, fish",
+            "caught, fish",
+            "the, a",
+            "boy, caught"
+          ],
+          "correctIndex": 0,
+          "explanation": "Nouns = boy, fish. Verb = caught."
+        },
+        {
+          "question": "Fill the blank with a PAST-tense verb: 'The students ________ to school yesterday.'",
+          "options": [
+            "walk",
+            "walks",
+            "walked",
+            "walking"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Yesterday' signals past tense — use -ed form: walked."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Grammar (Noun, Verb).",
+          "modelAnswer": "Nouns name people, places, things, or ideas. Verbs show action or being, and they must match tense and subject.",
+          "keywords": [
+            "grammar",
+            "noun",
+            "verb",
+            "nouns",
+            "people",
+            "places"
+          ],
+          "explanation": "A strong answer should mention Grammar (Noun, Verb) clearly and include a correct supporting detail, such as: Verbs show action or being, and they must match tense and subject.",
+          "selfMark": true
+        },
+        {
+          "question": "Choose the sentence with correct subject-verb agreement.",
+          "options": [
+            "The boys runs fast.",
+            "The boy run fast.",
+            "The boys run fast.",
+            "The boys running fast."
+          ],
+          "correctIndex": 2,
+          "explanation": "Plural subject \"boys\" uses the verb \"run\"."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one sentence about your school that includes at least two nouns and one verb. Then label the nouns and verb.",
+          "modelAnswer": "Example: \"The students read books.\" Nouns: students, books. Verb: read.",
+          "keywords": [
+            "noun",
+            "verb"
+          ],
+          "explanation": "A good answer writes a complete sentence and correctly labels naming words and action words.",
+          "selfMark": true
+        },
+        {
+          "type": "short",
+          "question": "Correct this sentence and write it again: the girl walk to class yesterday",
+          "modelAnswer": "The girl walked to class yesterday.",
+          "keywords": [
+            "The",
+            "walked",
+            "yesterday"
+          ],
+          "explanation": "Start with a capital letter and use past tense because the sentence says yesterday.",
+          "selfMark": true
+        }
+      ],
+      "Vocabulary": [
+        {
+          "question": "Which is a SYNONYM for 'large'?",
+          "options": [
+            "tiny",
+            "big",
+            "cold",
+            "soft"
+          ],
+          "correctIndex": 1,
+          "explanation": "Synonym = same meaning. 'Big' means the same as 'large'."
+        },
+        {
+          "question": "Use context clues: 'The food was so delicious that everyone ate two full plates.' What does 'delicious' mean?",
+          "options": [
+            "Too hot to eat",
+            "Tasting very good",
+            "Very cheap",
+            "Cold and raw"
+          ],
+          "correctIndex": 1,
+          "explanation": "Everyone eating two full plates shows the food tasted very good."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Vocabulary.",
+          "modelAnswer": "A synonym has a similar meaning; an antonym has an opposite meaning. Context clues can be examples, contrasts, actions, results, or descriptions.",
+          "keywords": [
+            "vocabulary",
+            "synonym",
+            "similar",
+            "meaning",
+            "antonym"
+          ],
+          "explanation": "A strong answer should mention Vocabulary clearly and include a correct supporting detail, such as: Context clues can be examples, contrasts, actions, results, or descriptions.",
+          "selfMark": true
+        },
+        {
+          "question": "Which word is an ANTONYM for \"brave\"?",
+          "options": [
+            "Courageous",
+            "Fearful",
+            "Bold",
+            "Strong"
+          ],
+          "correctIndex": 1,
+          "explanation": "An antonym has the opposite meaning. Fearful is the opposite of brave."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Use context clues to explain the word \"scarce\".\n\nAfter the cyclone, clean water was scarce, so every family saved each cup carefully.",
+          "modelAnswer": "Scarce means there was not much clean water available. The clue is that families saved each cup carefully.",
+          "keywords": [
+            "not much",
+            "little",
+            "few",
+            "saved",
+            "carefully"
+          ],
+          "explanation": "Use the words around the new word to work out its meaning.",
+          "selfMark": true
+        }
+      ],
+      "Reading Comprehension": [
+        {
+          "question": "'Leimara looked up at the dark grey clouds, grabbed her umbrella, and ran out the door.' What can you INFER?",
+          "options": [
+            "It was sunny",
+            "It was about to rain",
+            "She was happy",
+            "She lost her bag"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dark clouds + umbrella = inference that rain is coming. Not stated directly."
+        },
+        {
+          "question": "Which is a LITERAL fact from the same sentence?",
+          "options": [
+            "Leimara was scared of rain",
+            "Leimara grabbed her umbrella",
+            "It was already raining hard",
+            "She was late for school"
+          ],
+          "correctIndex": 1,
+          "explanation": "A literal fact is exactly stated in the text — 'Leimara grabbed her umbrella.'"
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Reading Comprehension.",
+          "modelAnswer": "Read once for the main idea and again for important details. Literal answers are directly stated in the text.",
+          "keywords": [
+            "reading",
+            "comprehension",
+            "again",
+            "important",
+            "details",
+            "literal"
+          ],
+          "explanation": "A strong answer should mention Reading Comprehension clearly and include a correct supporting detail, such as: Literal answers are directly stated in the text.",
+          "selfMark": true
+        },
+        {
+          "type": "short",
+          "question": "Read the passage, then answer in 2-3 sentences:\n\nEvery Saturday, Tasi helped his grandmother at the market. He arranged tomatoes in neat rows, counted change carefully, and smiled at customers. By noon, only three baskets were left.\n\nWhat kind of person is Tasi? Give two clues from the passage.",
+          "modelAnswer": "Tasi is helpful and responsible. He helps his grandmother, arranges tomatoes neatly, counts change carefully, and is friendly to customers.",
+          "keywords": [
+            "helpful",
+            "responsible",
+            "careful",
+            "friendly"
+          ],
+          "explanation": "Character questions need an idea about the person plus evidence from the passage.",
+          "selfMark": true
+        },
+        {
+          "question": "From the passage about Tasi, which is a literal fact?",
+          "options": [
+            "Tasi dislikes the market",
+            "Tasi helped his grandmother every Saturday",
+            "Tasi sold every basket before noon",
+            "Tasi forgot the change"
+          ],
+          "correctIndex": 1,
+          "explanation": "A literal fact is stated directly: Tasi helped his grandmother every Saturday."
+        },
+        {
+          "type": "short",
+          "question": "Read the passage, then answer:\n\nLina heard the school bell and looked at the unfinished maths problem. She packed her pencil, but kept thinking about the answer all the way home.\n\nWhat can you infer about Lina as a learner?",
+          "modelAnswer": "Lina cares about learning and does not give up easily. She keeps thinking about the maths problem even after school ends.",
+          "keywords": [
+            "cares",
+            "learning",
+            "does not give up",
+            "thinking",
+            "problem"
+          ],
+          "explanation": "An inference uses clues plus your own thinking. The clue is that Lina keeps thinking about the problem.",
+          "selfMark": true
+        }
+      ],
+      "Punctuation": [
+        {
+          "question": "Rewrite with correct punctuation: 'what time is the bus coming asked silas'",
+          "options": [
+            "What time is the bus coming asked silas",
+            "\"What time is the bus coming?\" asked silas",
+            "\"What time is the bus coming?\" asked Silas.",
+            "What time is the bus coming? Asked Silas."
+          ],
+          "correctIndex": 2,
+          "explanation": "Needs speech marks, question mark, and a capital S for the proper name Silas."
+        },
+        {
+          "question": "Insert commas: 'I need to buy paper pens and a ruler.'",
+          "options": [
+            "I need to buy paper pens and a ruler.",
+            "I need to buy paper, pens and a ruler.",
+            "I need to buy paper, pens, and a ruler.",
+            "I, need, to buy paper, pens, and a ruler."
+          ],
+          "correctIndex": 2,
+          "explanation": "Place a comma after each list item except the last: 'paper, pens, and a ruler.'"
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Punctuation.",
+          "modelAnswer": "Capital letters begin sentences and proper nouns. Full stops, question marks, and exclamation marks show sentence endings.",
+          "keywords": [
+            "punctuation",
+            "capital",
+            "letters",
+            "begin",
+            "sentences"
+          ],
+          "explanation": "A strong answer should mention Punctuation clearly and include a correct supporting detail, such as: Full stops, question marks, and exclamation marks show sentence endings.",
+          "selfMark": true
+        },
+        {
+          "type": "short",
+          "question": "Rewrite with correct punctuation and capital letters: where are you going asked tina",
+          "modelAnswer": "\"Where are you going?\" asked Tina.",
+          "keywords": [
+            "Where",
+            "?",
+            "Tina"
+          ],
+          "explanation": "Use a capital letter, speech marks, a question mark, and a capital letter for the name Tina.",
+          "selfMark": true
+        },
+        {
+          "type": "short",
+          "question": "Add commas to this list and write the sentence again: We packed mangoes bananas water and bread.",
+          "modelAnswer": "We packed mangoes, bananas, water, and bread.",
+          "keywords": [
+            "mangoes,",
+            "bananas,",
+            "water,",
+            "bread"
+          ],
+          "explanation": "Use commas to separate items in a list.",
+          "selfMark": true
+        }
+      ]
+    },
+    "Social Science": {
+      "Geographers Tools": [
+        {
+          "question": "If you face North, which direction is on your right?",
+          "options": [
+            "West",
+            "South",
+            "East",
+            "North-East"
+          ],
+          "correctIndex": 2,
+          "explanation": "Compass points clockwise: N → E → S → W. Right of North = East."
+        },
+        {
+          "question": "Which tool measures air pressure?",
+          "options": [
+            "Thermometer",
+            "Compass",
+            "Barometer",
+            "Ruler"
+          ],
+          "correctIndex": 2,
+          "explanation": "Barometer = air pressure. Thermometer = temperature. Compass = direction."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Geographers Tools.",
+          "modelAnswer": "Geographers use tools to observe, measure, record, and explain places. A compass shows direction; a map shows location and features.",
+          "keywords": [
+            "geographers",
+            "tools",
+            "observe",
+            "measure"
+          ],
+          "explanation": "A strong answer should mention Geographers Tools clearly and include a correct supporting detail, such as: A compass shows direction; a map shows location and features.",
+          "selfMark": true
+        }
+      ],
+      "Representing Geography": [
+        {
+          "question": "A map scale is 1 cm = 2 km. A line on the map measures 5 cm. What real distance is that?",
+          "options": [
+            "5 km",
+            "7 km",
+            "10 km",
+            "15 km"
+          ],
+          "correctIndex": 2,
+          "explanation": "5 × 2 = 10 km. Multiply map measurement by the scale."
+        },
+        {
+          "question": "What is the purpose of a map's Legend (Key)?",
+          "options": [
+            "To show north",
+            "To explain symbols and colours",
+            "To measure distance",
+            "To show the title"
+          ],
+          "correctIndex": 1,
+          "explanation": "A legend explains what the map's symbols and colours mean."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Representing Geography.",
+          "modelAnswer": "Maps represent real places using scale, symbols, colour, direction, and keys. A legend explains symbols; a scale converts map distance into real distance.",
+          "keywords": [
+            "representing",
+            "geography",
+            "represent",
+            "places",
+            "using",
+            "scale"
+          ],
+          "explanation": "A strong answer should mention Representing Geography clearly and include a correct supporting detail, such as: A legend explains symbols; a scale converts map distance into real distance.",
+          "selfMark": true
+        }
+      ],
+      "Creating Maps of Vanuatu": [
+        {
+          "question": "Which is the most southern province of Vanuatu?",
+          "options": [
+            "Torba",
+            "Sanma",
+            "Shefa",
+            "Tafea"
+          ],
+          "correctIndex": 3,
+          "explanation": "Tafea is the southernmost province. (Torba is the northernmost.)"
+        },
+        {
+          "question": "Luganville town is on which island?",
+          "options": [
+            "Efate",
+            "Espiritu Santo",
+            "Tanna",
+            "Ambae"
+          ],
+          "correctIndex": 1,
+          "explanation": "Luganville is on Espiritu Santo, in Sanma Province."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Creating Maps of Vanuatu.",
+          "modelAnswer": "Vanuatu is made of many islands grouped into provinces. Maps can show islands, towns, coastlines, provinces, and compass direction.",
+          "keywords": [
+            "creating",
+            "maps",
+            "of",
+            "vanuatu",
+            "islands",
+            "grouped"
+          ],
+          "explanation": "A strong answer should mention Creating Maps of Vanuatu clearly and include a correct supporting detail, such as: Maps can show islands, towns, coastlines, provinces, and compass direction.",
+          "selfMark": true
+        }
+      ],
+      "The New Hebrides Condominium": [
+        {
+          "question": "During the Condominium, which two Resident Commissioners ruled the New Hebrides?",
+          "options": [
+            "Spanish and Portuguese",
+            "British and French",
+            "American and Australian",
+            "Dutch and German"
+          ],
+          "correctIndex": 1,
+          "explanation": "Both the British and French Resident Commissioners jointly governed."
+        },
+        {
+          "question": "Which was a major problem of the Condominium?",
+          "options": [
+            "Too many tourists",
+            "Two legal systems and two currencies at once",
+            "No schools at all",
+            "Only one language was allowed"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dual laws and currencies caused confusion and extra cost."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about The New Hebrides Condominium.",
+          "modelAnswer": "Before independence, Vanuatu was called the New Hebrides. Britain and France ruled together under the Condominium.",
+          "keywords": [
+            "the",
+            "new",
+            "hebrides",
+            "condominium",
+            "before",
+            "independence"
+          ],
+          "explanation": "A strong answer should mention The New Hebrides Condominium clearly and include a correct supporting detail, such as: Britain and France ruled together under the Condominium.",
+          "selfMark": true
+        }
+      ],
+      "Road to Independence": [
+        {
+          "question": "What was the colonial name of Vanuatu before 1980?",
+          "options": [
+            "New Caledonia",
+            "New Hebrides",
+            "New Guinea",
+            "New Zealand"
+          ],
+          "correctIndex": 1,
+          "explanation": "Vanuatu was the New Hebrides until independence in 1980."
+        },
+        {
+          "question": "Who wrote the words to the national anthem 'Yumi, Yumi, Yumi'?",
+          "options": [
+            "Father Walter Lini",
+            "Francois Vincent Ayssav",
+            "Jimmy Stevens",
+            "George Kalkoa"
+          ],
+          "correctIndex": 1,
+          "explanation": "The lyrics were written by Francois Vincent Ayssav."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Road to Independence.",
+          "modelAnswer": "Independence means a country governs itself and makes its own decisions. Vanuatu became independent on 30 July 1980.",
+          "keywords": [
+            "road",
+            "to",
+            "independence",
+            "means",
+            "country",
+            "governs"
+          ],
+          "explanation": "A strong answer should mention Road to Independence clearly and include a correct supporting detail, such as: Vanuatu became independent on 30 July 1980.",
+          "selfMark": true
+        }
+      ],
+      "Origin of Culture / Protecting our Heritage": [
+        {
+          "question": "Why is sand drawing protected by UNESCO?",
+          "options": [
+            "It uses expensive paint",
+            "It is a unique traditional art that preserves stories without written words",
+            "It is the oldest sport in Vanuatu",
+            "It is a tourist attraction only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sand drawing preserves history and custom stories through one continuous line."
+        },
+        {
+          "question": "Which is a practical way to protect custom languages?",
+          "options": [
+            "Speak only English at home",
+            "Stop speaking them so they don't change",
+            "Speak local languages at home with family",
+            "Write them only in books"
+          ],
+          "correctIndex": 2,
+          "explanation": "Languages live when families use them every day."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Origin of Culture / Protecting our Heritage.",
+          "modelAnswer": "Culture includes language, custom, stories, dance, art, food, beliefs, and ceremonies. Heritage is what people protect and pass to the next generation.",
+          "keywords": [
+            "origin",
+            "of",
+            "culture",
+            "protecting",
+            "our",
+            "heritage"
+          ],
+          "explanation": "A strong answer should mention Origin of Culture / Protecting our Heritage clearly and include a correct supporting detail, such as: Heritage is what people protect and pass to the next generation.",
+          "selfMark": true
+        }
+      ],
+      "Preserve the Environment": [
+        {
+          "question": "Which custom leaf is used to mark a Tabu area?",
+          "options": [
+            "Banana leaf",
+            "Namele leaf",
+            "Coconut leaf",
+            "Hibiscus leaf"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Namele leaf is the custom sign of a Tabu area."
+        },
+        {
+          "question": "Which of these hurts fish habitats?",
+          "options": [
+            "Catching fish with a hand line",
+            "Throwing plastic rubbish into the sea",
+            "Planting mangroves",
+            "Setting a Tabu during breeding season"
+          ],
+          "correctIndex": 1,
+          "explanation": "Plastic in the sea pollutes water and harms fish and coral."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Preserve the Environment.",
+          "modelAnswer": "The environment includes land, sea, air, plants, animals, and people. Conservation means using resources wisely so they remain for the future.",
+          "keywords": [
+            "preserve",
+            "the",
+            "environment",
+            "includes",
+            "plants",
+            "animals"
+          ],
+          "explanation": "A strong answer should mention Preserve the Environment clearly and include a correct supporting detail, such as: Conservation means using resources wisely so they remain for the future.",
+          "selfMark": true
+        }
+      ]
+    },
+    "Health": {
+      "Food and Drinking Packaging": [
+        {
+          "question": "A can of meat is bulging. What should you do?",
+          "options": [
+            "Open it and smell it first",
+            "Cook it longer and eat it",
+            "Throw it away — bacteria are growing inside",
+            "Put it in the fridge for a day"
+          ],
+          "correctIndex": 2,
+          "explanation": "A bulging can means gas from bad bacteria. Do not eat it."
+        },
+        {
+          "question": "Where is the expiry date usually printed on a bottle?",
+          "options": [
+            "On the cap only",
+            "On the neck or main label",
+            "Inside the bottle",
+            "There is no expiry date on bottles"
+          ],
+          "correctIndex": 1,
+          "explanation": "Look on the neck or main label for the printed date."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Food and Drinking Packaging.",
+          "modelAnswer": "Food packaging can protect food, but students must read labels carefully. Important label information includes expiry date, ingredients, sugar, salt, fat, and storage advice.",
+          "keywords": [
+            "food",
+            "and",
+            "drinking",
+            "packaging",
+            "protect",
+            "students"
+          ],
+          "explanation": "A strong answer should mention Food and Drinking Packaging clearly and include a correct supporting detail, such as: Important label information includes expiry date, ingredients, sugar, salt, fat, and storage advice.",
+          "selfMark": true
+        }
+      ],
+      "Fresh Food": [
+        {
+          "question": "Which two are good garden foods for nutrients?",
+          "options": [
+            "Island cabbage and manioc",
+            "Fizzy drink and chips",
+            "White rice and candy",
+            "Canned meat and biscuits"
+          ],
+          "correctIndex": 0,
+          "explanation": "Island cabbage and manioc are fresh, local, and nutrient-rich."
+        },
+        {
+          "question": "Why wash knives after cutting raw meat?",
+          "options": [
+            "So they look shiny",
+            "To stop germs spreading to other foods (cross-contamination)",
+            "To make them sharper",
+            "It is not necessary"
+          ],
+          "correctIndex": 1,
+          "explanation": "Raw meat germs can transfer to other foods via the knife — wash to prevent this."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Fresh Food.",
+          "modelAnswer": "Fresh foods are often less processed and can provide vitamins, minerals, fibre, and energy. Fruits and vegetables help protect the body.",
+          "keywords": [
+            "fresh",
+            "food",
+            "foods",
+            "often",
+            "processed"
+          ],
+          "explanation": "A strong answer should mention Fresh Food clearly and include a correct supporting detail, such as: Fruits and vegetables help protect the body.",
+          "selfMark": true
+        }
+      ],
+      "Making Choices - What and Where": [
+        {
+          "question": "Why are local fruits better than store sweets?",
+          "options": [
+            "They are cheaper only",
+            "They have natural vitamins and fibre; sweets have chemicals and refined sugar",
+            "They taste sweeter",
+            "They last longer in the shop"
+          ],
+          "correctIndex": 1,
+          "explanation": "Local fruits give vitamins and fibre; store sweets harm teeth and health with chemicals and sugar."
+        },
+        {
+          "question": "Which disease can come from drinking too much fizzy soda over many years?",
+          "options": [
+            "Malaria",
+            "Type 2 Diabetes",
+            "Tuberculosis",
+            "A cold"
+          ],
+          "correctIndex": 1,
+          "explanation": "Too much refined sugar over years is a major cause of Type 2 Diabetes."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Making Choices - What and Where.",
+          "modelAnswer": "Healthy choices depend on what is eaten, where it comes from, and how it is prepared. Choose clean water and fresh foods more often than sweet drinks and highly processed foods.",
+          "keywords": [
+            "making",
+            "choices",
+            "what",
+            "and",
+            "where",
+            "healthy"
+          ],
+          "explanation": "A strong answer should mention Making Choices - What and Where clearly and include a correct supporting detail, such as: Choose clean water and fresh foods more often than sweet drinks and highly processed foods.",
+          "selfMark": true
+        }
+      ],
+      "Special Food Needs": [
+        {
+          "question": "A student at school is highly allergic to peanuts. What should the school do?",
+          "options": [
+            "Nothing — it's the student's problem",
+            "Tell all students not to bring peanuts to school",
+            "Make that student eat in the toilet",
+            "Ban all food from school"
+          ],
+          "correctIndex": 1,
+          "explanation": "A whole-school ban on peanuts keeps the allergic student safe."
+        },
+        {
+          "question": "Why do elderly people often need soft foods?",
+          "options": [
+            "They don't like tasty food",
+            "They may have lost teeth and find chewing hard",
+            "Soft food is cheaper",
+            "Soft food has more vitamins"
+          ],
+          "correctIndex": 1,
+          "explanation": "Weak or missing teeth make hard foods difficult to chew."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Special Food Needs.",
+          "modelAnswer": "Different people need different foods at different stages of life. Babies, pregnant mothers, sick people, elderly people, and active children may need special care.",
+          "keywords": [
+            "special",
+            "food",
+            "needs",
+            "different",
+            "people",
+            "foods"
+          ],
+          "explanation": "A strong answer should mention Special Food Needs clearly and include a correct supporting detail, such as: Babies, pregnant mothers, sick people, elderly people, and active children may need special care.",
+          "selfMark": true
+        }
+      ],
+      "Keep it Balanced": [
+        {
+          "question": "Chicken belongs to which food group?",
+          "options": [
+            "Energy foods",
+            "Protective foods",
+            "Body-building foods (Proteins)",
+            "Drinks"
+          ],
+          "correctIndex": 2,
+          "explanation": "Chicken is protein — a body-building food that helps you grow."
+        },
+        {
+          "question": "Which is an example of a PROTECTIVE food?",
+          "options": [
+            "White rice",
+            "Fizzy drink",
+            "A ripe papaya",
+            "Cooking oil"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fruits and vegetables (like ripe papaya) are protective foods — they keep us safe from sickness."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Keep it Balanced.",
+          "modelAnswer": "A balanced lifestyle includes good food, clean water, sleep, exercise, hygiene, and rest. No single food gives everything the body needs.",
+          "keywords": [
+            "keep",
+            "it",
+            "balanced",
+            "lifestyle",
+            "includes",
+            "clean"
+          ],
+          "explanation": "A strong answer should mention Keep it Balanced clearly and include a correct supporting detail, such as: No single food gives everything the body needs.",
+          "selfMark": true
+        }
+      ],
+      "Clean Drinking Water": [
+        {
+          "question": "How long should water bubble (boil) to be safe to drink?",
+          "options": [
+            "5 seconds",
+            "30 seconds",
+            "At least one full minute",
+            "10 minutes minimum"
+          ],
+          "correctIndex": 2,
+          "explanation": "Boil for at least one full minute to kill all germs."
+        },
+        {
+          "question": "During SODIS treatment, what kills the germs in the water?",
+          "options": [
+            "The heat of the bottle only",
+            "UV rays from sunlight",
+            "The colour of the bottle",
+            "The cap of the bottle"
+          ],
+          "correctIndex": 1,
+          "explanation": "UV rays from sunlight kill dangerous germs inside a clear bottle."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Clean Drinking Water.",
+          "modelAnswer": "Clean drinking water helps prevent sickness. Water can be made safer by boiling, filtering, treating, and storing it in a clean covered container.",
+          "keywords": [
+            "clean",
+            "drinking",
+            "water",
+            "helps"
+          ],
+          "explanation": "A strong answer should mention Clean Drinking Water clearly and include a correct supporting detail, such as: Water can be made safer by boiling, filtering, treating, and storing it in a clean covered container.",
+          "selfMark": true
+        }
+      ],
+      "Immunisation": [
+        {
+          "question": "After a vaccine, what does your body build to fight the germ?",
+          "options": [
+            "Antibiotics",
+            "Antibodies",
+            "Antidotes",
+            "Sugar"
+          ],
+          "correctIndex": 1,
+          "explanation": "Antibodies are tiny 'memory soldiers' your body makes after a vaccine."
+        },
+        {
+          "question": "True or False: Vaccines give you the real, dangerous illness.",
+          "options": [
+            "True",
+            "False",
+            "Only on Mondays",
+            "Only for adults"
+          ],
+          "correctIndex": 1,
+          "explanation": "False. Vaccines are safe — they teach the body without causing the real illness."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Immunisation.",
+          "modelAnswer": "Immunisation helps protect the body before a disease attacks. Vaccines train the immune system to recognise harmful germs.",
+          "keywords": [
+            "immunisation",
+            "helps",
+            "protect",
+            "before"
+          ],
+          "explanation": "A strong answer should mention Immunisation clearly and include a correct supporting detail, such as: Vaccines train the immune system to recognise harmful germs.",
+          "selfMark": true
+        }
+      ],
+      "Malaria": [
+        {
+          "question": "Why clear empty coconut shells from around the house?",
+          "options": [
+            "They look ugly",
+            "They collect rainwater where mosquitoes breed",
+            "They attract birds",
+            "They smell bad"
+          ],
+          "correctIndex": 1,
+          "explanation": "Standing water in shells is where malaria mosquitoes lay eggs."
+        },
+        {
+          "question": "When do malaria mosquitoes mostly bite?",
+          "options": [
+            "Midday only",
+            "Morning only",
+            "Evening/dusk until night",
+            "Any time of day"
+          ],
+          "correctIndex": 2,
+          "explanation": "Malaria mosquitoes are most active from dusk through the night."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Malaria.",
+          "modelAnswer": "Malaria is spread by infected mosquitoes. Symptoms can include fever, chills, headache, tiredness, and body aches.",
+          "keywords": [
+            "malaria",
+            "spread",
+            "infected",
+            "mosquitoes"
+          ],
+          "explanation": "A strong answer should mention Malaria clearly and include a correct supporting detail, such as: Symptoms can include fever, chills, headache, tiredness, and body aches.",
+          "selfMark": true
+        }
+      ],
+      "Diabetes": [
+        {
+          "question": "Which lifestyle habit can cause diabetes?",
+          "options": [
+            "Eating fresh fruit daily",
+            "Running every morning",
+            "Eating too many processed sweets and not exercising",
+            "Drinking clean water"
+          ],
+          "correctIndex": 2,
+          "explanation": "Too much processed sugar + too little movement = major diabetes cause."
+        },
+        {
+          "question": "Which hormone controls blood sugar?",
+          "options": [
+            "Insulin",
+            "Adrenaline",
+            "Melatonin",
+            "Bile"
+          ],
+          "correctIndex": 0,
+          "explanation": "Insulin is the hormone that lowers and controls blood sugar."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Diabetes.",
+          "modelAnswer": "Diabetes is linked to problems controlling blood sugar. Insulin helps control blood sugar in the body.",
+          "keywords": [
+            "diabetes",
+            "linked",
+            "problems",
+            "controlling"
+          ],
+          "explanation": "A strong answer should mention Diabetes clearly and include a correct supporting detail, such as: Insulin helps control blood sugar in the body.",
+          "selfMark": true
+        }
+      ],
+      "Disease": [
+        {
+          "question": "Tuberculosis (TB) is which type of disease?",
+          "options": [
+            "Lifestyle disease",
+            "Infectious disease",
+            "Genetic disease",
+            "Allergic reaction"
+          ],
+          "correctIndex": 1,
+          "explanation": "TB is infectious — it spreads from person to person through the air."
+        },
+        {
+          "question": "What is a simple way to stop spreading the common cold?",
+          "options": [
+            "Take antibiotics every day",
+            "Cover your mouth with your elbow when you cough",
+            "Stay indoors forever",
+            "Drink only hot water"
+          ],
+          "correctIndex": 1,
+          "explanation": "Coughing into your elbow stops germs reaching your hands and other people."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Disease.",
+          "modelAnswer": "Diseases can be infectious or non-infectious. Infectious diseases can spread through air, water, food, insects, or touch.",
+          "keywords": [
+            "disease",
+            "diseases",
+            "infectious"
+          ],
+          "explanation": "A strong answer should mention Disease clearly and include a correct supporting detail, such as: Infectious diseases can spread through air, water, food, insects, or touch.",
+          "selfMark": true
+        }
+      ]
+    },
+    "Science": {
+      "What is Compost": [
+        {
+          "question": "Why should batteries NOT go in a compost pile?",
+          "options": [
+            "They are too small",
+            "They contain dangerous chemicals that poison compost and soil",
+            "They smell bad",
+            "They take too long to break down"
+          ],
+          "correctIndex": 1,
+          "explanation": "Batteries leak toxic chemicals — never put synthetic pollutants in compost."
+        },
+        {
+          "question": "What type of waste breaks down naturally in compost?",
+          "options": [
+            "Plastic bottles",
+            "Glass jars",
+            "Organic (biodegradable) waste — things that were once alive",
+            "Metal cans"
+          ],
+          "correctIndex": 2,
+          "explanation": "Compost needs organic / biodegradable waste — once-living material."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about What is Compost.",
+          "modelAnswer": "Compost is decayed organic material that becomes rich soil. Organic waste includes leaves, grass, vegetable scraps, and other once-living materials.",
+          "keywords": [
+            "what",
+            "is",
+            "compost",
+            "decayed",
+            "organic",
+            "material"
+          ],
+          "explanation": "A strong answer should mention What is Compost clearly and include a correct supporting detail, such as: Organic waste includes leaves, grass, vegetable scraps, and other once-living materials.",
+          "selfMark": true
+        }
+      ],
+      "How Composting Process Works": [
+        {
+          "question": "Why does a compost pile need moisture?",
+          "options": [
+            "So it looks wet",
+            "So microbes and decomposers can survive and break down materials",
+            "So it doesn't catch fire",
+            "So it smells nice"
+          ],
+          "correctIndex": 1,
+          "explanation": "Microbes need water to live and do their decomposing work."
+        },
+        {
+          "question": "Which is a good 'carbon' (brown) item for compost?",
+          "options": [
+            "Fresh green grass",
+            "Meat scraps",
+            "Dry brown leaves",
+            "Cooking oil"
+          ],
+          "correctIndex": 2,
+          "explanation": "Carbon items are usually brown and dry — like dry leaves or shredded paper."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about How Composting Process Works.",
+          "modelAnswer": "Composting needs air, moisture, warmth, and decomposers. Brown materials add carbon; green materials add nitrogen.",
+          "keywords": [
+            "how",
+            "composting",
+            "process",
+            "works",
+            "needs",
+            "moisture"
+          ],
+          "explanation": "A strong answer should mention How Composting Process Works clearly and include a correct supporting detail, such as: Brown materials add carbon; green materials add nitrogen.",
+          "selfMark": true
+        }
+      ],
+      "Pest": [
+        {
+          "question": "What part of a plant do aphids attack?",
+          "options": [
+            "The roots only",
+            "The green leaves and stems",
+            "The flowers only",
+            "The fruit only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Aphids suck nutrients out of green leaves and stems."
+        },
+        {
+          "question": "Which is a natural, chemical-free way to protect plants from pests?",
+          "options": [
+            "Spray lots of chemical insecticide",
+            "Hand-pick bugs off leaves, or plant strong-smelling herbs nearby",
+            "Burn the field",
+            "Do nothing"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hand-picking and companion planting with herbs are safe, chemical-free pest controls."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Pest.",
+          "modelAnswer": "A pest is an organism that damages crops, stored food, homes, or health. Pests can be controlled by hand-picking, barriers, companion plants, natural predators, and safe hygiene.",
+          "keywords": [
+            "pest",
+            "organism",
+            "damages",
+            "crops",
+            "stored"
+          ],
+          "explanation": "A strong answer should mention Pest clearly and include a correct supporting detail, such as: Pests can be controlled by hand-picking, barriers, companion plants, natural predators, and safe hygiene.",
+          "selfMark": true
+        }
+      ],
+      "Friendly Organisms": [
+        {
+          "question": "What do bees collect from flowers?",
+          "options": [
+            "Only water",
+            "Nectar and pollen",
+            "Leaves",
+            "Soil"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bees collect nectar (for honey) and pollen (as food) — and pollinate flowers in return."
+        },
+        {
+          "question": "How do earthworms improve soil?",
+          "options": [
+            "They eat plant roots",
+            "Their waste adds natural nutrients that make soil rich and fertile",
+            "They dry out the soil",
+            "They make the soil acidic"
+          ],
+          "correctIndex": 1,
+          "explanation": "Earthworm waste (castings) is rich in nutrients plants love."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Friendly Organisms.",
+          "modelAnswer": "Friendly organisms help gardens and ecosystems. Earthworms loosen soil and add nutrients; bees help pollinate flowers.",
+          "keywords": [
+            "friendly",
+            "organisms",
+            "gardens",
+            "ecosystems"
+          ],
+          "explanation": "A strong answer should mention Friendly Organisms clearly and include a correct supporting detail, such as: Earthworms loosen soil and add nutrients; bees help pollinate flowers.",
+          "selfMark": true
+        }
+      ],
+      "Living Things and the Environment": [
+        {
+          "question": "Which is an ABIOTIC factor in a garden?",
+          "options": [
+            "Worms",
+            "Bees",
+            "Sunlight",
+            "Flowers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Abiotic = non-living. Sunlight, soil, and water are abiotic."
+        },
+        {
+          "question": "Which physical feature helps a bird fly?",
+          "options": [
+            "Heavy solid bones",
+            "Light hollow bones and strong wings",
+            "Thick fur",
+            "Gills"
+          ],
+          "correctIndex": 1,
+          "explanation": "Light hollow bones + strong wings are adaptations for flight."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Living Things and the Environment.",
+          "modelAnswer": "Living things need food, water, air, shelter, and space. A habitat includes biotic living parts and abiotic non-living parts.",
+          "keywords": [
+            "living",
+            "things",
+            "and",
+            "the",
+            "environment",
+            "water"
+          ],
+          "explanation": "A strong answer should mention Living Things and the Environment clearly and include a correct supporting detail, such as: A habitat includes biotic living parts and abiotic non-living parts.",
+          "selfMark": true
+        }
+      ],
+      "Food Chain and Food Web": [
+        {
+          "question": "In a food chain, what eats a primary consumer?",
+          "options": [
+            "A producer",
+            "A secondary consumer",
+            "The sun",
+            "A decomposer"
+          ],
+          "correctIndex": 1,
+          "explanation": "Secondary consumers eat primary consumers (which ate producers)."
+        },
+        {
+          "question": "Which is a correct 3-step food chain?",
+          "options": [
+            "Bird → Caterpillar → Cabbage",
+            "Cabbage → Caterpillar → Bird",
+            "Caterpillar → Bird → Cabbage",
+            "Cabbage → Bird → Caterpillar"
+          ],
+          "correctIndex": 1,
+          "explanation": "Energy flows from producer (cabbage) to consumer (caterpillar) to secondary consumer (bird). Arrows point to the eater."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Food Chain and Food Web.",
+          "modelAnswer": "Producers make food, usually using sunlight. Primary consumers eat producers; secondary consumers eat primary consumers.",
+          "keywords": [
+            "food",
+            "chain",
+            "and",
+            "web",
+            "producers",
+            "usually"
+          ],
+          "explanation": "A strong answer should mention Food Chain and Food Web clearly and include a correct supporting detail, such as: Primary consumers eat producers; secondary consumers eat primary consumers.",
+          "selfMark": true
+        }
+      ],
+      "Photosynthesis": [
+        {
+          "question": "Which green chemical captures sunlight in a leaf?",
+          "options": [
+            "Glucose",
+            "Chlorophyll",
+            "Carbon dioxide",
+            "Water"
+          ],
+          "correctIndex": 1,
+          "explanation": "Chlorophyll is the green pigment that captures sunlight for photosynthesis."
+        },
+        {
+          "question": "Which sugar do plants make during photosynthesis?",
+          "options": [
+            "Sucrose",
+            "Glucose",
+            "Fructose",
+            "Lactose"
+          ],
+          "correctIndex": 1,
+          "explanation": "Plants make glucose — a simple sugar — as their food."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Photosynthesis.",
+          "modelAnswer": "Plants use sunlight, water, and carbon dioxide to make glucose. Chlorophyll in leaves captures light energy.",
+          "keywords": [
+            "photosynthesis",
+            "plants",
+            "sunlight",
+            "water",
+            "carbon"
+          ],
+          "explanation": "A strong answer should mention Photosynthesis clearly and include a correct supporting detail, such as: Chlorophyll in leaves captures light energy.",
+          "selfMark": true
+        }
+      ],
+      "Flowering Plants": [
+        {
+          "question": "What is the sticky top of the female pistil that catches pollen?",
+          "options": [
+            "Stamen",
+            "Stigma",
+            "Petal",
+            "Sepal"
+          ],
+          "correctIndex": 1,
+          "explanation": "The stigma is sticky and catches pollen during pollination."
+        },
+        {
+          "question": "How does wind help flowering plants?",
+          "options": [
+            "It cools them down",
+            "It blows lightweight pollen from one flower to another for pollination",
+            "It stops bees from coming",
+            "It dries out the leaves"
+          ],
+          "correctIndex": 1,
+          "explanation": "Wind carries lightweight pollen grains between flowers, enabling pollination."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Flowering Plants.",
+          "modelAnswer": "Flowers help plants reproduce. The stamen makes pollen; the pistil includes the stigma, style, and ovary.",
+          "keywords": [
+            "flowering",
+            "plants",
+            "flowers",
+            "reproduce",
+            "stamen"
+          ],
+          "explanation": "A strong answer should mention Flowering Plants clearly and include a correct supporting detail, such as: The stamen makes pollen; the pistil includes the stigma, style, and ovary.",
+          "selfMark": true
+        }
+      ],
+      "Respiratory and Circulatory System": [
+        {
+          "question": "Which blood vessels carry blood AWAY from the heart?",
+          "options": [
+            "Veins",
+            "Arteries",
+            "Capillaries",
+            "Nerves"
+          ],
+          "correctIndex": 1,
+          "explanation": "Arteries Away, Veins back. Arteries carry blood away from the heart."
+        },
+        {
+          "question": "Which waste gas do our lungs breathe out?",
+          "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon Dioxide",
+            "Helium"
+          ],
+          "correctIndex": 2,
+          "explanation": "We breathe in oxygen and breathe out carbon dioxide."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Respiratory and Circulatory System.",
+          "modelAnswer": "The respiratory system brings oxygen into the body and removes carbon dioxide. The circulatory system uses the heart, blood, arteries, veins, and capillaries to move materials.",
+          "keywords": [
+            "respiratory",
+            "and",
+            "circulatory",
+            "system",
+            "brings",
+            "oxygen"
+          ],
+          "explanation": "A strong answer should mention Respiratory and Circulatory System clearly and include a correct supporting detail, such as: The circulatory system uses the heart, blood, arteries, veins, and capillaries to move materials.",
+          "selfMark": true
+        }
+      ]
+    }
+  }
+}

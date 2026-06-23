@@ -1,0 +1,448 @@
+{
+  "notes": {
+    "format": "simple-5yo",
+    "language": "en",
+    "purpose": "Short, child-friendly explanations to show before mock exams."
+  },
+  "default": {
+    "title": "How to study",
+    "bullets": [
+      "Read the lesson in small steps.",
+      "Say it out loud like a story.",
+      "Then answer the quiz questions."
+    ]
+  },
+  "lessons": {
+    "Maths": {
+      "Place Value": {
+        "title": "Place Value",
+        "content": [
+          "Hi! Let's learn Place Value.",
+          "In a number, each digit means a different 'place'.",
+          "The right-most digit is the Ones.",
+          "The next digit to the left is the Tens.",
+          "Next come Hundreds, Thousands, and so on.",
+          "So we read numbers in columns to know how much each digit really means.",
+          "Try it: find the digit, then look at what column it sits in — then you know its value!"
+        ]
+      },
+      "Angles": {
+        "title": "Angles",
+        "content": [
+          "Hi! Let's learn Angles.",
+          "An angle is a turn between two lines.",
+          "Some angles are smaller turns, some are bigger turns, and some are straight.",
+          "• Acute angles are smaller than 90° (less than a right angle).",
+          "• Right angles are exactly 90° (like an 'L').",
+          "• Obtuse angles are between 90° and 180°.",
+          "• A straight angle is exactly 180° (a flat line).",
+          "When you see two lines, imagine the turn — that's the angle!"
+        ]
+      },
+      "Subtraction / Addition": {
+        "title": "Adding & Subtracting",
+        "content": [
+          "Hi! Let's learn how to add and subtract big numbers.",
+          "First, line up the digits by their places (Ones under Ones, Tens under Tens, etc.).",
+          "Then add or subtract column by column.",
+          "If addition makes more than 9 in a column, you 'carry' to the next place.",
+          "If subtraction needs you to take from the left, you 'borrow'.",
+          "Take your time and check your columns — slow and careful wins!"
+        ]
+      },
+      "Multiplying": {
+        "title": "Multiplication",
+        "content": [
+          "Hi! Let's learn Multiplying.",
+          "Multiplication means 'groups'.",
+          "Like repeated adding: 3 × 4 means 3 groups of 4.",
+          "When multiplying by a two-digit number, you do the ones first, then the tens, and finally add the two results.",
+          "Remember: keep the place values in the right columns!"
+        ]
+      },
+      "Area / Perimeter": {
+        "title": "Area & Perimeter",
+        "content": [
+          "Hi! Let's learn Area and Perimeter.",
+          "Area is the space inside a shape — how much 'floor' it covers.",
+          "Perimeter is the distance around the outside edge.",
+          "For a rectangle:",
+          "• Perimeter = (Length + Width) × 2",
+          "• Area = Length × Width",
+          "Measure carefully, then use the formula!"
+        ]
+      },
+      "Number Pattern": {
+        "title": "Number Pattern",
+        "content": [
+          "Hi! Let's learn Number Patterns.",
+          "A pattern is numbers that change using a rule.",
+          "Look for the 'rule' by comparing the numbers.",
+          "Sometimes the pattern adds, subtracts, or multiplies.",
+          "After you find the rule, you can predict the next numbers.",
+          "Practice a little each day!"
+        ]
+      }
+    },
+
+    "English": {
+      "Novel": {
+        "title": "Novel",
+        "content": [
+          "Hi! A novel is a long story book.",
+          "Stories have characters (who the story is about), setting (where and when), and plot (what happens).",
+          "A short passage may give only a few clues, but a long passage gives more details about feelings, problems, and change.",
+          "When you read, ask: Who is here? Where are they? What problem is starting? What has changed by the end?",
+          "Practice: read one paragraph and underline one clue for character, one clue for setting, and one clue for plot.",
+          "Short answer habit: write your idea first, then add evidence from the story."
+        ]
+      },
+      "Media Explosion": {
+        "title": "Media Explosion",
+        "content": [
+          "Hi! Let's learn about Media.",
+          "Media means all the ways we share news and messages — posters, radio, TV, newspapers, signs.",
+          "Some media tries to SELL you something (an advertisement).",
+          "Some media tries to HELP or PROTECT you (a public notice, like a health poster).",
+          "Always ask: who made this, and why?",
+          "Also ask: who is the audience? Is it for children, parents, farmers, drivers, or the whole community?",
+          "Practice: read a poster or notice and find the heading, picture, audience, purpose, and action words.",
+          "Short answer habit: explain both audience and purpose in one clear sentence."
+        ]
+      },
+      "Grammar (Noun, Verb)": {
+        "title": "Nouns and Verbs",
+        "content": [
+          "Hi! Let's learn Nouns and Verbs.",
+          "A noun is a naming word: person, place, thing, or idea.",
+          "A verb tells an action or state of being: run, write, is, are.",
+          "Find the noun (who/what) and then find the verb (what it is doing).",
+          "Grammar grows stronger with daily exercise: write a sentence, circle the nouns, underline the verb, then check the tense.",
+          "If the sentence says yesterday, use past tense: walked, played, helped.",
+          "If the subject is plural, check the verb: The boys run. The boy runs.",
+          "Practice: write three school sentences. Label every noun and verb."
+        ]
+      },
+      "Vocabulary": {
+        "title": "Vocabulary",
+        "content": [
+          "Hi! Vocabulary means learning new words.",
+          "You can guess meanings using clues in the sentence.",
+          "Synonyms are words with similar meaning.",
+          "Antonyms are words with opposite meaning.",
+          "Context clues can be examples, actions, feelings, or results near the new word.",
+          "Practice: when you meet a new word, read the sentence before and after it. Guess the meaning, then replace it with a simpler word to test your guess.",
+          "Short answer habit: say what the word means and name the clue that helped you."
+        ]
+      },
+      "Reading Comprehension": {
+        "title": "Reading Comprehension",
+        "content": [
+          "Hi! Comprehension means understanding what you read.",
+          "A literal fact is directly said in the text.",
+          "An inference is a smart guess using clues plus your common sense.",
+          "For short passages, read twice: first for the main idea, second for details.",
+          "For long passages, stop after each paragraph and say the main point in your own words.",
+          "Practice passage: Every morning, Sera filled a bottle before walking to school. At lunch, she shared water with her little brother because his bottle had cracked. By the afternoon, both bottles were empty.",
+          "Questions to practise: What is one literal fact? What can you infer about Sera? Which clue supports your answer?",
+          "When you answer, point to clues you saw in the text!"
+        ]
+      },
+      "Punctuation": {
+        "title": "Punctuation",
+        "content": [
+          "Hi! Punctuation helps writing make sense.",
+          "Use a capital letter for the start of a sentence and for proper names.",
+          "Use a full stop (.) at the end of a statement.",
+          "Use a question mark '?' at the end of a question.",
+          "Use an exclamation mark ! at the end of a strong feeling.",
+          "Speech marks '...' help show the exact words someone says.",
+          "Use commas to separate items in a list: pens, books, water, and lunch.",
+          "Practice: rewrite one messy sentence every day with capitals, commas, full stops, question marks, and speech marks.",
+          "Short answer habit: after writing, read your sentence aloud. Pause where punctuation appears."
+        ]
+      }
+    },
+
+    "Social Science": {
+      "Geographers Tools": {
+        "title": "Geographers Tools",
+        "content": [
+          "Hi! Geographers study the Earth.",
+          "They use tools like:",
+          "• a compass (directions),",
+          "• a thermometer (temperature),",
+          "• a barometer (air pressure),",
+          "• maps and pictures from above.",
+          "Tools help geographers learn about places!"
+        ]
+      },
+      "Representing Geography": {
+        "title": "Maps",
+        "content": [
+          "Hi! Maps are drawings of real places.",
+          "Because maps are small, they use a scale to show real distance.",
+          "Maps also use a legend/key to explain symbols.",
+          "Always check the scale and the key!"
+        ]
+      },
+      "Creating Maps of Vanuatu": {
+        "title": "Maps of Vanuatu",
+        "content": [
+          "Hi! Vanuatu has 6 provinces.",
+          "From north to south they are: Torba, Sanma, Penama, Malampa, Shefa, Tafea.",
+          "Luganville is the big town on Espiritu Santo (Sanma Province).",
+          "Port Vila is the capital, on Efate (Shefa Province).",
+          "Tafea is the most southern province.",
+          "Learn the provinces from north to south!"
+        ]
+      },
+      "The New Hebrides Condominium": {
+        "title": "The Condominium",
+        "content": [
+          "Hi! Long ago Vanuatu was called the New Hebrides.",
+          "It was ruled by BOTH Britain and France at the same time.",
+          "This was called a Condominium.",
+          "There was a British Resident Commissioner and a French Resident Commissioner.",
+          "Two governments, two laws, two currencies — it was very confusing!",
+          "That is why people wanted to rule themselves one day."
+        ]
+      },
+      "Road to Independence": {
+        "title": "Road to Independence",
+        "content": [
+          "Hi! Vanuatu became independent on 30 July 1980.",
+          "Before that it was the New Hebrides, ruled by Britain and France.",
+          "The national anthem is called 'Yumi, Yumi, Yumi'.",
+          "The words were written by Francois Vincent Ayssav.",
+          "Independence means ni-Vanuatu people make their own laws and choose their own leaders.",
+          "It is a very important day to remember!"
+        ]
+      },
+      "Origin of Culture / Protecting our Heritage": {
+        "title": "Our Culture and Heritage",
+        "content": [
+          "Hi! Culture is the special way our people live — language, dance, art, stories, custom.",
+          "Sand drawing is a famous ni-Vanuatu art that UNESCO protects.",
+          "It tells stories by drawing one long line in the sand without lifting your finger.",
+          "We protect culture by speaking our local languages, learning custom stories, and teaching the young ones.",
+          "Heritage is the treasure we pass on to the next generation!"
+        ]
+      },
+      "Preserve the Environment": {
+        "title": "Preserve the Environment",
+        "content": [
+          "Hi! Our islands give us food, water, and beauty — we must look after them.",
+          "A 'Tabu' area is a place where people agree NOT to fish or cut trees, so nature can rest.",
+          "The Namele leaf is a custom sign used to mark a Tabu area.",
+          "Throwing plastic in the sea hurts fish and coral.",
+          "When we protect the environment, we protect our children's future!"
+        ]
+      }
+    },
+
+    "Health": {
+      "Food and Drinking Packaging": {
+        "title": "Food and Drinking Packaging",
+        "content": [
+          "Hi! Packaged food has labels.",
+          "Look for the expiry date so the food is safe.",
+          "Labels also tell ingredients and important information.",
+          "If a can is bulging or badly dented, throw it away — bad bacteria are inside!",
+          "Checking labels helps you make good choices for your body!"
+        ]
+      },
+      "Fresh Food": {
+        "title": "Fresh Food",
+        "content": [
+          "Hi! Fresh food from the garden is the best food.",
+          "Island cabbage, manioc, kumala, banana, papaya — all full of good nutrients.",
+          "Fresh food has no chemicals and no added sugar.",
+          "Always wash knives and boards after cutting raw meat so germs don't spread.",
+          "Eat fresh, stay strong!"
+        ]
+      },
+      "Making Choices - What and Where": {
+        "title": "Making Good Food Choices",
+        "content": [
+          "Hi! Every day we choose what to eat.",
+          "Local fruits and garden food give us natural vitamins and fiber.",
+          "Store sweets and fizzy drinks have chemicals and refined sugar that harm our teeth and body.",
+          "Too much fizzy soda over many years can cause Type 2 Diabetes.",
+          "Choose fresh, choose local, choose healthy!"
+        ]
+      },
+      "Special Food Needs": {
+        "title": "Special Food Needs",
+        "content": [
+          "Hi! Some people need special food care.",
+          "A person with a peanut allergy can get very sick from even a tiny bit of peanut.",
+          "At school we help by telling everyone not to bring that food.",
+          "Elderly people may need soft foods because their teeth are weak.",
+          "Babies need soft, plain, easy-to-digest food.",
+          "Always care for what others need!"
+        ]
+      },
+      "Keep it Balanced": {
+        "title": "Keep it Balanced",
+        "content": [
+          "Hi! Food has three big jobs in our body.",
+          "• Energy foods give us power — like yam, rice, breadfruit.",
+          "• Body-building foods make us grow — like fish, chicken, eggs, beans.",
+          "• Protective foods keep us safe from sickness — like fruits and vegetables.",
+          "Eat a mix of all three every day to stay healthy and strong!"
+        ]
+      },
+      "Clean Drinking Water": {
+        "title": "Clean Drinking Water",
+        "content": [
+          "Hi! Clear water can still have tiny germs.",
+          "To make water safe, you can boil it (bubble for at least one full minute).",
+          "Or use SODIS: fill a clear bottle, leave it in the sun — UV rays kill the germs.",
+          "Safe water helps prevent sickness.",
+          "Always choose clean, safe drinking water!"
+        ]
+      },
+      "Immunisation": {
+        "title": "Immunisation",
+        "content": [
+          "Hi! A vaccine is a safe medicine that teaches your body to fight sickness.",
+          "After a vaccine, your body makes antibodies — tiny soldiers that remember the germ.",
+          "If the real germ comes later, your body is ready and you stay well.",
+          "Vaccines do NOT give you the real, dangerous illness.",
+          "Vaccines protect you, your family, and your whole community!"
+        ]
+      },
+      "Malaria": {
+        "title": "Malaria",
+        "content": [
+          "Hi! Malaria is a sickness caused by a tiny germ carried by mosquitoes.",
+          "Malaria mosquitoes mostly bite in the evening and at night.",
+          "Mosquitoes lay eggs in still water — empty tins, coconut shells, old tyres.",
+          "Clear away anything that collects rainwater around the house.",
+          "Sleep under a mosquito net to stay safe at night!"
+        ]
+      },
+      "Diabetes": {
+        "title": "Diabetes",
+        "content": [
+          "Hi! Diabetes is a lifestyle sickness — it comes from how we live and eat.",
+          "Eating too many processed sweet foods and not moving enough can cause it.",
+          "In diabetes, the body cannot control blood sugar well.",
+          "Insulin is the hormone that normally controls blood sugar.",
+          "Eat fresh food, drink water, and exercise every day to stay safe!"
+        ]
+      },
+      "Disease": {
+        "title": "Disease",
+        "content": [
+          "Hi! There are two big kinds of disease.",
+          "• Infectious diseases spread from person to person — like TB, colds, flu.",
+          "• Lifestyle diseases come from how we live — like diabetes.",
+          "TB spreads through the air when a sick person coughs.",
+          "Cover your cough with your elbow, wash your hands, and stay clean!"
+        ]
+      }
+    },
+
+    "Science": {
+      "What is Compost": {
+        "title": "Compost",
+        "content": [
+          "Hi! Compost is old food and plant bits that turned into rich soil.",
+          "You need organic waste (things that were once alive).",
+          "Don't put plastics, glass, or batteries in compost — they are dangerous and never break down.",
+          "Compost helps gardens grow plants better!"
+        ]
+      },
+      "How Composting Process Works": {
+        "title": "How Composting Works",
+        "content": [
+          "Hi! Composting happens with tiny living helpers (microbes).",
+          "They need:",
+          "• oxygen (air) by turning the pile,",
+          "• moisture (a bit of water),",
+          "• a balance of brown (carbon) and green (nitrogen) materials.",
+          "When they work, heat helps break things down!"
+        ]
+      },
+      "Pest": {
+        "title": "Pests",
+        "content": [
+          "Hi! A pest is a bug or animal that hurts our plants.",
+          "Aphids are tiny bugs that suck nutrients out of green leaves and stems.",
+          "We can fight pests WITHOUT chemicals by:",
+          "• hand-picking the bugs off the leaves,",
+          "• planting strong-smelling herbs nearby to scare them away,",
+          "• inviting friendly bugs that eat the pests.",
+          "Safe for us, safe for the garden!"
+        ]
+      },
+      "Friendly Organisms": {
+        "title": "Friendly Organisms",
+        "content": [
+          "Hi! Some living things are our helpers in the garden.",
+          "Bees visit flowers to collect nectar and pollen — and they carry pollen between flowers so plants can make fruit.",
+          "Earthworms eat bits of plant and leave waste that makes the soil rich and fertile.",
+          "Ladybugs eat the aphids that hurt our plants.",
+          "Be kind to friendly organisms — they work hard for us!"
+        ]
+      },
+      "Living Things and the Environment": {
+        "title": "Living Things and the Environment",
+        "content": [
+          "Hi! Every living thing lives in a habitat (its home).",
+          "A habitat has two kinds of parts:",
+          "• Biotic factors — the living parts (plants, animals, bugs).",
+          "• Abiotic factors — the non-living parts (sunlight, soil, water, air, temperature).",
+          "Plants and animals have special body features (adaptations) that help them live there.",
+          "A bird has light hollow bones and strong wings so it can fly!"
+        ]
+      },
+      "Food Chain and Food Web": {
+        "title": "Food Chain and Food Web",
+        "content": [
+          "Hi! A food chain shows who eats whom.",
+          "• A plant makes food from sunlight — it is the Producer.",
+          "• A creature that eats the plant is a Primary Consumer.",
+          "• A creature that eats the primary consumer is a Secondary Consumer.",
+          "Arrows show the flow of energy: from the eaten to the eater.",
+          "Example: Cabbage → Caterpillar → Bird.",
+          "Many chains joined together make a Food Web!"
+        ]
+      },
+      "Photosynthesis": {
+        "title": "Photosynthesis",
+        "content": [
+          "Hi! Plants make their own food — this is called photosynthesis.",
+          "They use sunlight, water, and carbon dioxide.",
+          "A green chemical called chlorophyll captures the sunlight in the leaf.",
+          "The plant turns these into a sugar called glucose — its food.",
+          "Plants also give out oxygen, which we breathe. Thank you, plants!"
+        ]
+      },
+      "Flowering Plants": {
+        "title": "Flowering Plants",
+        "content": [
+          "Hi! Many plants make flowers to reproduce (make new plants).",
+          "A flower has parts:",
+          "• The pistil is the female part — its sticky top is called the stigma and catches pollen.",
+          "• The stamen is the male part — it makes the pollen.",
+          "Pollination is when pollen moves from one flower to another — by bees, birds, or wind.",
+          "After pollination, the flower can make seeds and fruit!"
+        ]
+      },
+      "Respiratory and Circulatory System": {
+        "title": "Respiratory and Circulatory System",
+        "content": [
+          "Hi! Two body systems keep us alive every moment.",
+          "• The Respiratory system uses our lungs to breathe in oxygen and breathe out carbon dioxide.",
+          "• The Circulatory system uses the heart and blood vessels to move blood around the body.",
+          "Arteries carry blood AWAY from the heart.",
+          "Veins bring blood BACK to the heart.",
+          "Blood carries oxygen and food to every part of you!"
+        ]
+      }
+    }
+  }
+}

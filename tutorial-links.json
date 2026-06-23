@@ -1,0 +1,141 @@
+{
+  "notes": {
+    "purpose": "Tutorial source links shown beside each lesson topic.",
+    "source": "User-provided Grade 6 Vanuatu revision source list"
+  },
+  "resources": {
+    "Maths": {
+      "Place Value": [
+        { "title": "Edugain Vanuatu Maths Practice", "url": "https://edugain.com" },
+        { "title": "Khan Academy Place Value", "url": "https://www.khanacademy.org/math/arithmetic-home/arith-place-value" }
+      ],
+      "Angles": [
+        { "title": "Khan Academy Geometry", "url": "https://www.khanacademy.org/math/geometry" }
+      ],
+      "Subtraction / Addition": [
+        { "title": "MoET Vanuatu Helping with Homework - Mathematics", "url": "https://moet.gov.vu" },
+        { "title": "Khan Academy Arithmetic", "url": "https://www.khanacademy.org/math/arithmetic" }
+      ],
+      "Multiplying": [
+        { "title": "Khan Academy Multiplication", "url": "https://www.khanacademy.org/math/arithmetic/arith-review-multiply-divide" }
+      ],
+      "Area / Perimeter": [
+        { "title": "Edugain Vanuatu Maths Practice", "url": "https://edugain.com" },
+        { "title": "Khan Academy Geometry", "url": "https://www.khanacademy.org/math/geometry" }
+      ],
+      "Number Pattern": [
+        { "title": "Khan Academy Patterns", "url": "https://www.khanacademy.org/math/cc-third-grade-math/imp-patterns-and-arithmetic" }
+      ]
+    },
+    "English": {
+      "Novel": [
+        { "title": "BBC Bitesize Primary English", "url": "https://www.bbc.co.uk/bitesize/subjects/zv48q6f" }
+      ],
+      "Media Explosion": [
+        { "title": "BBC Bitesize Media Literacy", "url": "https://www.bbc.co.uk/bitesize" }
+      ],
+      "Grammar (Noun, Verb)": [
+        { "title": "Khan Academy Grammar", "url": "https://www.khanacademy.org/humanities/grammar" }
+      ],
+      "Vocabulary": [
+        { "title": "Central School Vanuatu", "url": "https://centralschool.edu.vu" },
+        { "title": "BBC Bitesize English", "url": "https://www.bbc.co.uk/bitesize/subjects/zv48q6f" }
+      ],
+      "Reading Comprehension": [
+        { "title": "MoET Vanuatu Study Skills", "url": "https://moet.gov.vu" },
+        { "title": "Khan Academy Reading and Language", "url": "https://www.khanacademy.org/ela" }
+      ],
+      "Punctuation": [
+        { "title": "BBC Bitesize Grammar and Punctuation", "url": "https://www.bbc.co.uk/bitesize/topics/zhrrd2p" }
+      ]
+    },
+    "Social Science": {
+      "Geographers Tools": [
+        { "title": "National Geographic Education", "url": "https://education.nationalgeographic.org" }
+      ],
+      "Representing Geography": [
+        { "title": "National Geographic Education Resource Library", "url": "https://education.nationalgeographic.org/resource-library" }
+      ],
+      "Creating Maps of Vanuatu": [
+        { "title": "SPREP Vanuatu Data and Environment Resources", "url": "https://www.sprep.org" }
+      ],
+      "The New Hebrides Condominium": [
+        { "title": "Vanuatu Travel History and Culture", "url": "https://www.vanuatu.travel" },
+        { "title": "New Hebrides Reference", "url": "https://en.wikipedia.org/wiki/New_Hebrides" }
+      ],
+      "Road to Independence": [
+        { "title": "Parliament of Vanuatu", "url": "https://parliament.gov.vu" },
+        { "title": "Vanuatu Travel History", "url": "https://www.vanuatu.travel" }
+      ],
+      "Origin of Culture / Protecting our Heritage": [
+        { "title": "Vanuatu Travel Culture", "url": "https://www.vanuatu.travel" },
+        { "title": "MoET Vanuatu", "url": "https://moet.gov.vu" }
+      ],
+      "Preserve the Environment": [
+        { "title": "SPREP Environmental Library", "url": "https://www.sprep.org" }
+      ]
+    },
+    "Health": {
+      "Food and Drinking Packaging": [
+        { "title": "WHO Food Safety", "url": "https://www.who.int/health-topics/food-safety" }
+      ],
+      "Fresh Food": [
+        { "title": "WHO Food Safety", "url": "https://www.who.int/health-topics/food-safety" },
+        { "title": "WHO Healthy Diet", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet" }
+      ],
+      "Making Choices - What and Where": [
+        { "title": "WHO Healthy Diet", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet" }
+      ],
+      "Special Food Needs": [
+        { "title": "Cleveland Clinic Health Library", "url": "https://my.clevelandclinic.org/health" }
+      ],
+      "Keep it Balanced": [
+        { "title": "WHO Healthy Diet", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet" }
+      ],
+      "Clean Drinking Water": [
+        { "title": "WHO Drinking-water", "url": "https://www.who.int/news-room/fact-sheets/detail/drinking-water" }
+      ],
+      "Immunisation": [
+        { "title": "WHO Immunization", "url": "https://www.who.int/health-topics/vaccines-and-immunization" }
+      ],
+      "Malaria": [
+        { "title": "WHO Malaria", "url": "https://www.who.int/health-topics/malaria" }
+      ],
+      "Diabetes": [
+        { "title": "Cleveland Clinic Diabetes", "url": "https://my.clevelandclinic.org/health/diseases/7104-diabetes" }
+      ],
+      "Disease": [
+        { "title": "WHO Health Topics", "url": "https://www.who.int/health-topics" }
+      ]
+    },
+    "Science": {
+      "What is Compost": [
+        { "title": "BBC Bitesize Science", "url": "https://www.bbc.co.uk/bitesize/subjects/z2pfb9q" }
+      ],
+      "How Composting Process Works": [
+        { "title": "BBC Bitesize Biology", "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3" }
+      ],
+      "Pest": [
+        { "title": "BBC Bitesize Ecology", "url": "https://www.bbc.co.uk/bitesize/topics/zxfrwmn" }
+      ],
+      "Friendly Organisms": [
+        { "title": "BBC Bitesize Ecosystems", "url": "https://www.bbc.co.uk/bitesize/topics/zbnnb9q" }
+      ],
+      "Living Things and the Environment": [
+        { "title": "Khan Academy Ecology", "url": "https://www.khanacademy.org/science/biology/ecology" }
+      ],
+      "Food Chain and Food Web": [
+        { "title": "Khan Academy Ecosystems and Energy Flow", "url": "https://www.khanacademy.org/science/biology/ecology/intro-to-ecosystems" }
+      ],
+      "Photosynthesis": [
+        { "title": "Khan Academy Photosynthesis", "url": "https://www.khanacademy.org/science/biology/photosynthesis-in-plants" }
+      ],
+      "Flowering Plants": [
+        { "title": "BBC Bitesize Plant Biology", "url": "https://www.bbc.co.uk/bitesize/topics/zpxnyrd" }
+      ],
+      "Respiratory and Circulatory System": [
+        { "title": "Khan Academy Human Respiratory and Circulatory System", "url": "https://www.khanacademy.org/science/health-and-medicine/human-anatomy-and-physiology" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,550 @@
+{
+  "notes": {
+    "purpose": "Student-friendly notes based on linked video lessons and available transcript checks. Full video transcripts are not stored.",
+    "transcriptPolicy": "Use transcript availability to guide lesson improvement; avoid copying full copyrighted scripts into the app."
+  },
+  "videos": {
+    "Maths": {
+      "Place Value": {
+        "title": "Math Antics - Place Value",
+        "youtubeId": "T5Qf0qSSJFI",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 140,
+        "transcriptWordCount": 1792,
+        "keyNotes": [
+          "Digits get their value from their position, not just their shape.",
+          "Read large numbers by grouping digits into ones, thousands, millions, and so on.",
+          "Zero is a place holder when a column has no value.",
+          "Exam practice: underline a digit, name its column, then write its value."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Place Value in your own words, then add one example."
+      },
+      "Angles": {
+        "title": "Types of Angles | Math with Mr. J",
+        "youtubeId": "UsE1hu-q0Cs",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 46,
+        "transcriptWordCount": 290,
+        "keyNotes": [
+          "An angle measures the amount of turn between two lines or rays.",
+          "Acute angles are smaller than 90 degrees; right angles are exactly 90 degrees.",
+          "Obtuse angles are between 90 and 180 degrees; a straight angle is 180 degrees.",
+          "Exam practice: estimate first, then classify the angle using its measurement."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Angles in your own words, then add one example."
+      },
+      "Subtraction / Addition": {
+        "title": "Math Antics - Multi-Digit Subtraction",
+        "youtubeId": "Y6M89-6106I",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 86,
+        "transcriptWordCount": 1254,
+        "keyNotes": [
+          "Line up digits by place value before adding or subtracting.",
+          "Addition may require carrying into the next column.",
+          "Subtraction may require borrowing from the next column.",
+          "Check word problems by deciding whether the situation is joining, increasing, taking away, or comparing."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Subtraction / Addition in your own words, then add one example."
+      },
+      "Multiplying": {
+        "title": "Math Antics - Multi-Digit Multiplication Pt 1",
+        "youtubeId": "FJ5qLWP3Fqo",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 72,
+        "transcriptWordCount": 1181,
+        "keyNotes": [
+          "Multiplication means equal groups and repeated addition.",
+          "For two-digit multiplication, multiply by the ones, then by the tens, then add the partial products.",
+          "A zero placeholder keeps tens work in the correct column.",
+          "Exam practice: show working clearly so the marker can follow each step."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Multiplying in your own words, then add one example."
+      },
+      "Area / Perimeter": {
+        "title": "Perimeter, Area, and Volume Explained | Math with Mr. J",
+        "youtubeId": "2UEUWC313QY",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 194,
+        "transcriptWordCount": 1285,
+        "keyNotes": [
+          "Perimeter is the distance around the outside edge of a shape.",
+          "Area is the amount of space inside a flat shape.",
+          "Rectangles use perimeter = length + width + length + width and area = length x width.",
+          "Use square units for area and ordinary length units for perimeter."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Area / Perimeter in your own words, then add one example."
+      },
+      "Number Pattern": {
+        "title": "Math Antics - Number Patterns",
+        "youtubeId": "vV7C7bXm4VI",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 388,
+        "transcriptWordCount": 2557,
+        "keyNotes": [
+          "A number pattern follows a rule.",
+          "Compare neighbouring numbers to find whether the rule adds, subtracts, multiplies, or divides.",
+          "Test the rule on more than one step before using it.",
+          "Exam practice: write the rule and then the missing or next number."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Number Pattern in your own words, then add one example."
+      }
+    },
+    "English": {
+      "Novel": {
+        "title": "Grade 6 English - Analyzing Story Plot",
+        "youtubeId": "SCpBgblVUgw",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 508,
+        "transcriptWordCount": 2573,
+        "keyNotes": [
+          "Plot means the sequence of story events from beginning to ending.",
+          "Characters change or reveal traits through actions, speech, and choices.",
+          "Setting affects what characters can do and how the mood feels.",
+          "Short answers need a claim plus evidence from the passage."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Novel in your own words, then add one example."
+      },
+      "Media Explosion": {
+        "title": "English 6 - Infer the Purpose of Visual Media",
+        "youtubeId": "OGZyp28fufM",
+        "transcriptStatus": "TranscriptsDisabled",
+        "transcriptSnippetCount": 0,
+        "transcriptWordCount": 0,
+        "keyNotes": [
+          "Visual media uses pictures, layout, colour, headings, and short text to communicate quickly.",
+          "Purpose may be to inform, persuade, warn, entertain, or sell.",
+          "Audience means the people the message is made for.",
+          "Exam practice: identify the audience, purpose, and one visual clue."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Media Explosion in your own words, then add one example."
+      },
+      "Grammar (Noun, Verb)": {
+        "title": "Basic English Grammar - Noun, Verb, Adjective, Adverb",
+        "youtubeId": "CzHotHaXGk0",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 62,
+        "transcriptWordCount": 1081,
+        "keyNotes": [
+          "Nouns name people, places, things, or ideas.",
+          "Verbs show action or being, and they must match tense and subject.",
+          "Adjectives describe nouns; adverbs describe verbs, adjectives, or other adverbs.",
+          "Exam practice: label parts of speech, then use them correctly in your own sentence."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Grammar (Noun, Verb) in your own words, then add one example."
+      },
+      "Vocabulary": {
+        "title": "Vocabulary Mastery - Grade 6 English Lesson",
+        "youtubeId": "wURsoimWMf4",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 133,
+        "transcriptWordCount": 833,
+        "keyNotes": [
+          "A synonym has a similar meaning; an antonym has an opposite meaning.",
+          "Context clues can be examples, contrasts, actions, results, or descriptions.",
+          "Word parts like prefixes and suffixes can help unlock meaning.",
+          "Short answers should explain the meaning and name the clue."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Vocabulary in your own words, then add one example."
+      },
+      "Reading Comprehension": {
+        "title": "Reading Comprehension Skills and Strategies",
+        "youtubeId": "W7BW9gv_OkU",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 108,
+        "transcriptWordCount": 705,
+        "keyNotes": [
+          "Read once for the main idea and again for important details.",
+          "Literal answers are directly stated in the text.",
+          "Inference answers combine text clues with sensible thinking.",
+          "Use evidence words such as because, the text says, and this shows."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Reading Comprehension in your own words, then add one example."
+      },
+      "Punctuation": {
+        "title": "Grade 6 English - Punctuation",
+        "youtubeId": "6L4bS0kKdUM",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 124,
+        "transcriptWordCount": 681,
+        "keyNotes": [
+          "Capital letters begin sentences and proper nouns.",
+          "Full stops, question marks, and exclamation marks show sentence endings.",
+          "Commas separate items in a list and help readers pause.",
+          "Speech marks show the exact words a speaker says."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Punctuation in your own words, then add one example."
+      }
+    },
+    "Social Science": {
+      "Geographers Tools": {
+        "title": "The Geographer's Tools",
+        "youtubeId": "PqPU4daSDBY",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 154,
+        "transcriptWordCount": 876,
+        "keyNotes": [
+          "Geographers use tools to observe, measure, record, and explain places.",
+          "A compass shows direction; a map shows location and features.",
+          "Weather tools include thermometers for temperature and barometers for air pressure.",
+          "Exam practice: name the tool and explain what it measures or shows."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Geographers Tools in your own words, then add one example."
+      },
+      "Representing Geography": {
+        "title": "Grade 6 Social Sciences Geography - Atlas",
+        "youtubeId": "bwJbwgChL2A",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 65,
+        "transcriptWordCount": 278,
+        "keyNotes": [
+          "Maps represent real places using scale, symbols, colour, direction, and keys.",
+          "A legend explains symbols; a scale converts map distance into real distance.",
+          "An atlas is a collection of maps.",
+          "Exam practice: read the title, key, direction, and scale before answering."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Representing Geography in your own words, then add one example."
+      },
+      "Creating Maps of Vanuatu": {
+        "title": "Maps for Kids | How to Read a Map",
+        "youtubeId": "UZaTK7B0doE",
+        "transcriptStatus": "TranscriptsDisabled",
+        "transcriptSnippetCount": 0,
+        "transcriptWordCount": 0,
+        "keyNotes": [
+          "Vanuatu is made of many islands grouped into provinces.",
+          "Maps can show islands, towns, coastlines, provinces, and compass direction.",
+          "Good maps need a title, key, scale, labels, and north arrow.",
+          "Exam practice: locate provinces and major towns, then describe direction using north, south, east, and west."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Creating Maps of Vanuatu in your own words, then add one example."
+      },
+      "The New Hebrides Condominium": {
+        "title": "The Condominium of the New Hebrides: A Brief History of Vanuatu",
+        "youtubeId": "kPbqbI-lUnk",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 52,
+        "transcriptWordCount": 306,
+        "keyNotes": [
+          "Before independence, Vanuatu was called the New Hebrides.",
+          "Britain and France ruled together under the Condominium.",
+          "Dual rule created two systems of government, law, language, and money.",
+          "Exam practice: explain why this arrangement was confusing for local people."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining The New Hebrides Condominium in your own words, then add one example."
+      },
+      "Road to Independence": {
+        "title": "History of Vanuatu Independence",
+        "youtubeId": "74jygFXGzuo",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 6,
+        "transcriptWordCount": 36,
+        "keyNotes": [
+          "Independence means a country governs itself and makes its own decisions.",
+          "Vanuatu became independent on 30 July 1980.",
+          "National symbols such as the flag and anthem help show shared identity.",
+          "Exam practice: connect dates, names, and symbols to the idea of self-government."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Road to Independence in your own words, then add one example."
+      },
+      "Origin of Culture / Protecting our Heritage": {
+        "title": "What Is Cultural Heritage?",
+        "youtubeId": "CbnXgvCOuIg",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 210,
+        "transcriptWordCount": 1515,
+        "keyNotes": [
+          "Culture includes language, custom, stories, dance, art, food, beliefs, and ceremonies.",
+          "Heritage is what people protect and pass to the next generation.",
+          "Protecting heritage means learning it, respecting it, and teaching it to young people.",
+          "Exam practice: give a local example and explain how people can protect it."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Origin of Culture / Protecting our Heritage in your own words, then add one example."
+      },
+      "Preserve the Environment": {
+        "title": "Ecosystem and Nature Conservation | Dr Binocs",
+        "youtubeId": "HoWSO881-Bg",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 502,
+        "transcriptWordCount": 2538,
+        "keyNotes": [
+          "The environment includes land, sea, air, plants, animals, and people.",
+          "Conservation means using resources wisely so they remain for the future.",
+          "Tabu areas can protect fish, forests, reefs, and wildlife.",
+          "Exam practice: name a problem, a cause, and a practical solution."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Preserve the Environment in your own words, then add one example."
+      }
+    },
+    "Health": {
+      "Food and Drinking Packaging": {
+        "title": "Traffic Lights and Food Packaging",
+        "youtubeId": "_TJPkU9eSX4",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 55,
+        "transcriptWordCount": 380,
+        "keyNotes": [
+          "Food packaging can protect food, but students must read labels carefully.",
+          "Important label information includes expiry date, ingredients, sugar, salt, fat, and storage advice.",
+          "Damaged, dirty, or expired packaging can be unsafe.",
+          "Exam practice: inspect the label before deciding whether food is healthy or safe."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Food and Drinking Packaging in your own words, then add one example."
+      },
+      "Fresh Food": {
+        "title": "Healthy and Unhealthy Foods for Kids",
+        "youtubeId": "kvlWTI672sk",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 134,
+        "transcriptWordCount": 807,
+        "keyNotes": [
+          "Fresh foods are often less processed and can provide vitamins, minerals, fibre, and energy.",
+          "Fruits and vegetables help protect the body.",
+          "Local fresh foods can support health and family gardens.",
+          "Exam practice: compare fresh food with packaged food using health reasons."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Fresh Food in your own words, then add one example."
+      },
+      "Making Choices - What and Where": {
+        "title": "Making Healthy Choices",
+        "youtubeId": "br0gEMQbe0Q",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 23,
+        "transcriptWordCount": 146,
+        "keyNotes": [
+          "Healthy choices depend on what is eaten, where it comes from, and how it is prepared.",
+          "Choose clean water and fresh foods more often than sweet drinks and highly processed foods.",
+          "Food choices can be affected by price, availability, family habits, and advertising.",
+          "Exam practice: explain a healthy choice and give a reason."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Making Choices - What and Where in your own words, then add one example."
+      },
+      "Special Food Needs": {
+        "title": "Eating Healthy with Nurse Deon",
+        "youtubeId": "E0DT7R8oirM",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 280,
+        "transcriptWordCount": 1735,
+        "keyNotes": [
+          "Different people need different foods at different stages of life.",
+          "Babies, pregnant mothers, sick people, elderly people, and active children may need special care.",
+          "Food allergies, illness, and body needs can change what is safe or helpful to eat.",
+          "Exam practice: match the person to the food need and explain why."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Special Food Needs in your own words, then add one example."
+      },
+      "Keep it Balanced": {
+        "title": "Wellbeing for Children: Healthy Habits",
+        "youtubeId": "dhpCdqOtuj0",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 162,
+        "transcriptWordCount": 765,
+        "keyNotes": [
+          "A balanced lifestyle includes good food, clean water, sleep, exercise, hygiene, and rest.",
+          "No single food gives everything the body needs.",
+          "Too much sugar, salt, or processed food can harm health over time.",
+          "Exam practice: build a balanced day plan, not just one meal."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Keep it Balanced in your own words, then add one example."
+      },
+      "Clean Drinking Water": {
+        "title": "Health Lesson: Clean Drinking Water",
+        "youtubeId": "CqrgCKGAGI0",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 159,
+        "transcriptWordCount": 861,
+        "keyNotes": [
+          "Clean drinking water helps prevent sickness.",
+          "Water can be made safer by boiling, filtering, treating, and storing it in a clean covered container.",
+          "Dirty hands or dirty cups can make clean water unsafe again.",
+          "Exam practice: explain both how to make water safe and how to keep it safe."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Clean Drinking Water in your own words, then add one example."
+      },
+      "Immunisation": {
+        "title": "Why Do We Get Vaccines?",
+        "youtubeId": "5SproXmRUkI",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 93,
+        "transcriptWordCount": 695,
+        "keyNotes": [
+          "Immunisation helps protect the body before a disease attacks.",
+          "Vaccines train the immune system to recognise harmful germs.",
+          "High immunisation helps protect families and communities.",
+          "Exam practice: explain prevention, not just treatment."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Immunisation in your own words, then add one example."
+      },
+      "Malaria": {
+        "title": "What Causes Malaria? | Dr Binocs",
+        "youtubeId": "PGiqxnAr2fQ",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 120,
+        "transcriptWordCount": 618,
+        "keyNotes": [
+          "Malaria is spread by infected mosquitoes.",
+          "Symptoms can include fever, chills, headache, tiredness, and body aches.",
+          "Prevention includes mosquito nets, removing standing water, and seeking treatment early.",
+          "Exam practice: explain cause, spread, symptoms, and prevention."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Malaria in your own words, then add one example."
+      },
+      "Diabetes": {
+        "title": "What Causes Diabetes? | Dr Binocs",
+        "youtubeId": "d86DofYpkrY",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 115,
+        "transcriptWordCount": 654,
+        "keyNotes": [
+          "Diabetes is linked to problems controlling blood sugar.",
+          "Insulin helps control blood sugar in the body.",
+          "Healthy food, exercise, water, and medical care help manage risk.",
+          "Exam practice: explain lifestyle choices that reduce risk."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Diabetes in your own words, then add one example."
+      },
+      "Disease": {
+        "title": "What Is Disease? Types of Illnesses Explained for Kids",
+        "youtubeId": "2muqPd3RfoE",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 90,
+        "transcriptWordCount": 427,
+        "keyNotes": [
+          "Diseases can be infectious or non-infectious.",
+          "Infectious diseases can spread through air, water, food, insects, or touch.",
+          "Prevention includes hygiene, safe water, immunisation, mosquito control, and healthy living.",
+          "Exam practice: name the disease type, how it spreads, and how to prevent it."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Disease in your own words, then add one example."
+      }
+    },
+    "Science": {
+      "What is Compost": {
+        "title": "Composting for Kids",
+        "youtubeId": "dRXNo7Ieky8",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 128,
+        "transcriptWordCount": 826,
+        "keyNotes": [
+          "Compost is decayed organic material that becomes rich soil.",
+          "Organic waste includes leaves, grass, vegetable scraps, and other once-living materials.",
+          "Plastic, glass, metal, and batteries do not belong in compost.",
+          "Exam practice: list what can go in compost and what must stay out."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining What is Compost in your own words, then add one example."
+      },
+      "How Composting Process Works": {
+        "title": "How Compost Is Made: A Field Trip",
+        "youtubeId": "26IO95Xt5WU",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 115,
+        "transcriptWordCount": 1041,
+        "keyNotes": [
+          "Composting needs air, moisture, warmth, and decomposers.",
+          "Brown materials add carbon; green materials add nitrogen.",
+          "Turning the pile adds oxygen and helps materials break down evenly.",
+          "Exam practice: explain the process from waste to useful soil."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining How Composting Process Works in your own words, then add one example."
+      },
+      "Pest": {
+        "title": "Pest Control | Ecology and Environment",
+        "youtubeId": "g6LMw9I6rxU",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 110,
+        "transcriptWordCount": 555,
+        "keyNotes": [
+          "A pest is an organism that damages crops, stored food, homes, or health.",
+          "Pests can be controlled by hand-picking, barriers, companion plants, natural predators, and safe hygiene.",
+          "Not every insect is a pest; some are helpful.",
+          "Exam practice: identify the pest, the damage, and a safe control method."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Pest in your own words, then add one example."
+      },
+      "Friendly Organisms": {
+        "title": "Worms - Natural Science for Kids",
+        "youtubeId": "kWb6HlBhkfQ",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 54,
+        "transcriptWordCount": 272,
+        "keyNotes": [
+          "Friendly organisms help gardens and ecosystems.",
+          "Earthworms loosen soil and add nutrients; bees help pollinate flowers.",
+          "Ladybugs and other predators can eat pests.",
+          "Exam practice: name the organism and explain its benefit."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Friendly Organisms in your own words, then add one example."
+      },
+      "Living Things and the Environment": {
+        "title": "Basic Needs of Living Things | Science for Kids",
+        "youtubeId": "4p5e2l-zd5U",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 59,
+        "transcriptWordCount": 307,
+        "keyNotes": [
+          "Living things need food, water, air, shelter, and space.",
+          "A habitat includes biotic living parts and abiotic non-living parts.",
+          "Adaptations help organisms survive in their habitat.",
+          "Exam practice: connect a feature of a living thing to how it helps survival."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Living Things and the Environment in your own words, then add one example."
+      },
+      "Food Chain and Food Web": {
+        "title": "Food Chains - How Energy Moves Through Ecosystems",
+        "youtubeId": "3o-GBrDNXL8",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 57,
+        "transcriptWordCount": 920,
+        "keyNotes": [
+          "Producers make food, usually using sunlight.",
+          "Primary consumers eat producers; secondary consumers eat primary consumers.",
+          "Arrows show the direction energy moves, from food to eater.",
+          "Food webs show many connected food chains."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Food Chain and Food Web in your own words, then add one example."
+      },
+      "Photosynthesis": {
+        "title": "Photosynthesis | Educational Video for Kids",
+        "youtubeId": "UPBMG5EYydo",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 90,
+        "transcriptWordCount": 419,
+        "keyNotes": [
+          "Plants use sunlight, water, and carbon dioxide to make glucose.",
+          "Chlorophyll in leaves captures light energy.",
+          "Oxygen is released during photosynthesis.",
+          "Exam practice: name the inputs and outputs clearly."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Photosynthesis in your own words, then add one example."
+      },
+      "Flowering Plants": {
+        "title": "Life Cycle of Flowering Plants | Science For Kids",
+        "youtubeId": "74tODKTSHqE",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 53,
+        "transcriptWordCount": 233,
+        "keyNotes": [
+          "Flowers help plants reproduce.",
+          "The stamen makes pollen; the pistil includes the stigma, style, and ovary.",
+          "Pollination moves pollen, often by wind or animals.",
+          "After pollination, seeds and fruit can form."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Flowering Plants in your own words, then add one example."
+      },
+      "Respiratory and Circulatory System": {
+        "title": "Respiratory and Circulatory Systems for Kids",
+        "youtubeId": "uS_4rlJMJg0",
+        "transcriptStatus": "available",
+        "transcriptSnippetCount": 329,
+        "transcriptWordCount": 1909,
+        "keyNotes": [
+          "The respiratory system brings oxygen into the body and removes carbon dioxide.",
+          "The circulatory system uses the heart, blood, arteries, veins, and capillaries to move materials.",
+          "Arteries carry blood away from the heart; veins carry blood back.",
+          "Exam practice: explain how lungs, heart, and blood work together."
+        ],
+        "practicePrompt": "After watching, write 3-4 sentences explaining Respiratory and Circulatory System in your own words, then add one example."
+      }
+    }
+  }
+}

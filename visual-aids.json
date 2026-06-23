@@ -1,0 +1,423 @@
+{
+  "notes": {
+    "purpose": "Open visual aids and simple diagrams for lesson pages.",
+    "attribution": "Images are remote educational assets with source links. Diagrams are original app teaching aids."
+  },
+  "visuals": {
+    "Maths": {
+      "Place Value": [
+        {
+          "type": "image",
+          "title": "Place value chart",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Positional_notation_glossary-en.svg/330px-Positional_notation_glossary-en.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Positional_notation",
+          "caption": "Shows how each digit changes value by its column.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Angles": [
+        {
+          "type": "image",
+          "title": "Angle diagram",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Angle.svg/330px-Angle.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Angle",
+          "caption": "Use the arms and turn to identify acute, right, obtuse, straight, and reflex angles.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Subtraction / Addition": [
+        {
+          "type": "image",
+          "title": "Subtraction model",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Subtraction01.svg/330px-Subtraction01.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Subtraction",
+          "caption": "Visual subtraction helps students see taking away and checking columns.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Multiplying": [
+        {
+          "type": "image",
+          "title": "Multiplication groups",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Multiply_4_bags_3_marbles.svg/330px-Multiply_4_bags_3_marbles.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Multiplication",
+          "caption": "Multiplication is equal groups before it becomes column working.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Area / Perimeter": [
+        {
+          "type": "image",
+          "title": "Area model",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Squaring_the_circle.svg/330px-Squaring_the_circle.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Area",
+          "caption": "Students compare space inside a shape with distance around the shape.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Number Pattern": [
+        {
+          "type": "diagram",
+          "title": "Number pattern ladder",
+          "caption": "Look for the change from one number to the next, then apply the same rule.",
+          "points": [
+            "Look for the change from one number to the next",
+            "then apply the same rule."
+          ]
+        }
+      ]
+    },
+    "English": {
+      "Novel": [
+        {
+          "type": "diagram",
+          "title": "Story mountain",
+          "caption": "A story mountain helps students see beginning, build-up, problem, climax, and resolution.",
+          "points": [
+            "A story mountain helps students see beginning",
+            "build-up",
+            "problem",
+            "climax"
+          ]
+        }
+      ],
+      "Media Explosion": [
+        {
+          "type": "diagram",
+          "title": "Media message map",
+          "caption": "Students inspect sender, audience, message, purpose, and action.",
+          "points": [
+            "Students inspect sender",
+            "audience",
+            "message",
+            "purpose"
+          ]
+        }
+      ],
+      "Grammar (Noun, Verb)": [
+        {
+          "type": "diagram",
+          "title": "Sentence parts chart",
+          "caption": "A sentence chart separates naming words, action words, describing words, and extra details.",
+          "points": [
+            "A sentence chart separates naming words",
+            "action words",
+            "describing words",
+            "and extra details."
+          ]
+        }
+      ],
+      "Vocabulary": [
+        {
+          "type": "diagram",
+          "title": "Context clue web",
+          "caption": "A clue web reminds students to use nearby words, examples, and results.",
+          "points": [
+            "A clue web reminds students to use nearby words",
+            "examples",
+            "and results."
+          ]
+        }
+      ],
+      "Reading Comprehension": [
+        {
+          "type": "diagram",
+          "title": "Evidence ladder",
+          "caption": "Students climb from literal facts to inference using evidence.",
+          "points": [
+            "Students climb from literal facts to inference using evidence."
+          ]
+        }
+      ],
+      "Punctuation": [
+        {
+          "type": "diagram",
+          "title": "Punctuation toolbox",
+          "caption": "Students choose full stops, commas, question marks, exclamation marks, and speech marks.",
+          "points": [
+            "Students choose full stops",
+            "commas",
+            "question marks",
+            "exclamation marks"
+          ]
+        }
+      ]
+    },
+    "Social Science": {
+      "Geographers Tools": [
+        {
+          "type": "image",
+          "title": "Compass",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2016_Busola.JPG/330px-2016_Busola.JPG",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Compass",
+          "caption": "A compass image helps students connect directions with real field tools.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Representing Geography": [
+        {
+          "type": "image",
+          "title": "Map example",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/World_Map_1689.JPG/330px-World_Map_1689.JPG",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Map",
+          "caption": "Maps use symbols, scale, direction, and keys to represent real places.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Creating Maps of Vanuatu": [
+        {
+          "type": "image",
+          "title": "Vanuatu",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_Vanuatu_%28official%29.svg/330px-Flag_of_Vanuatu_%28official%29.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vanuatu",
+          "caption": "Use with a province map activity to locate islands, towns, and provinces.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "The New Hebrides Condominium": [
+        {
+          "type": "image",
+          "title": "New Hebrides flag",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_the_British_New_Hebrides_%281952%E2%80%931980%29.svg/330px-Flag_of_the_British_New_Hebrides_%281952%E2%80%931980%29.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/New_Hebrides",
+          "caption": "A colonial-era symbol helps students separate New Hebrides history from modern Vanuatu.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Road to Independence": [
+        {
+          "type": "diagram",
+          "title": "Timeline",
+          "caption": "A timeline places New Hebrides, independence, symbols, and national identity in order.",
+          "points": [
+            "A timeline places New Hebrides",
+            "independence",
+            "symbols",
+            "and national identity in order."
+          ]
+        }
+      ],
+      "Origin of Culture / Protecting our Heritage": [
+        {
+          "type": "image",
+          "title": "Cultural heritage",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Giovanni_Paolo_Pannini_002.jpg/330px-Giovanni_Paolo_Pannini_002.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Cultural_heritage",
+          "caption": "Use the image to discuss objects, stories, places, dances, and customs that people protect.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Preserve the Environment": [
+        {
+          "type": "image",
+          "title": "Nature conservation",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Bolivia-Deforestation-EO.JPG/330px-Bolivia-Deforestation-EO.JPG",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nature_conservation",
+          "caption": "Students can compare damaged land with healthy habitats and tabu areas.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ]
+    },
+    "Health": {
+      "Food and Drinking Packaging": [
+        {
+          "type": "image",
+          "title": "Food packaging",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Testing_MAP_for_carrots.jpg/330px-Testing_MAP_for_carrots.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Food_packaging",
+          "caption": "Packaging visuals help students inspect labels, dates, ingredients, and safety signs.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Fresh Food": [
+        {
+          "type": "image",
+          "title": "Healthy food display",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/330px-Good_Food_Display_-_NCI_Visuals_Online.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Healthy_diet",
+          "caption": "Students can group foods by energy, growth, protection, and everyday balance.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Making Choices - What and Where": [
+        {
+          "type": "image",
+          "title": "Healthy diet",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/330px-Good_Food_Display_-_NCI_Visuals_Online.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Healthy_diet",
+          "caption": "Use the picture to compare healthy choices with processed food choices.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Special Food Needs": [
+        {
+          "type": "diagram",
+          "title": "Special diet plate",
+          "caption": "Students compare food needs for babies, pregnant mothers, sick people, elderly people, and active children.",
+          "points": [
+            "Students compare food needs for babies",
+            "pregnant mothers",
+            "sick people",
+            "elderly people"
+          ]
+        }
+      ],
+      "Keep it Balanced": [
+        {
+          "type": "image",
+          "title": "Balanced food choices",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/330px-Good_Food_Display_-_NCI_Visuals_Online.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Healthy_diet",
+          "caption": "A balanced diet has many kinds of food, enough water, and sensible portions.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Clean Drinking Water": [
+        {
+          "type": "image",
+          "title": "Clean drinking water",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Clean_water_for_a_village_in_West_Lombok_%2810686572086%29.jpg/330px-Clean_water_for_a_village_in_West_Lombok_%2810686572086%29.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Drinking_water",
+          "caption": "Connect the picture to safe collection, boiling, covering, and storage.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Immunisation": [
+        {
+          "type": "image",
+          "title": "Vaccine",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Smallpox_vaccine.jpg/330px-Smallpox_vaccine.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vaccine",
+          "caption": "Students can see vaccines as prevention that trains the body before illness arrives.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Malaria": [
+        {
+          "type": "image",
+          "title": "Malaria parasite",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Malaria_Parasite_Connecting_to_Human_Red_Blood_Cell_%2834034143483%29.jpg/330px-Malaria_Parasite_Connecting_to_Human_Red_Blood_Cell_%2834034143483%29.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Malaria",
+          "caption": "Use with mosquito life-cycle and net-use discussion.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Diabetes": [
+        {
+          "type": "image",
+          "title": "Diabetes symbol",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Blue_circle_for_diabetes.svg/330px-Blue_circle_for_diabetes.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Diabetes",
+          "caption": "A simple symbol anchors discussion of blood sugar, insulin, food, and exercise.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Disease": [
+        {
+          "type": "image",
+          "title": "Disease concept",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Michael_Ancher%2C_Den_syge_pige%2C_1882%2C_KMS4002%2C_Statens_Museum_for_Kunst.jpg/330px-Michael_Ancher%2C_Den_syge_pige%2C_1882%2C_KMS4002%2C_Statens_Museum_for_Kunst.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Disease",
+          "caption": "Use carefully to discuss symptoms, causes, spread, prevention, and care.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ]
+    },
+    "Science": {
+      "What is Compost": [
+        {
+          "type": "image",
+          "title": "Compost pile",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Compost_site_germany.JPG/330px-Compost_site_germany.JPG",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Compost",
+          "caption": "Students can identify brown materials, green materials, air, water, and decomposers.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "How Composting Process Works": [
+        {
+          "type": "image",
+          "title": "Compost process",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Compost_site_germany.JPG/330px-Compost_site_germany.JPG",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Compost",
+          "caption": "Shows compost as a process from organic waste to rich soil.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Pest": [
+        {
+          "type": "image",
+          "title": "Pest organism",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Sceliphron_and_pest.jpg/330px-Sceliphron_and_pest.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pest_(organism)",
+          "caption": "Students can distinguish harmful pests from helpful organisms.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Friendly Organisms": [
+        {
+          "type": "image",
+          "title": "Earthworm",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Eisenia_foetida_R.H._%288%29.JPG/330px-Eisenia_foetida_R.H._%288%29.JPG",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Earthworm",
+          "caption": "Earthworms are a clear example of organisms that improve soil.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Living Things and the Environment": [
+        {
+          "type": "diagram",
+          "title": "Habitat web",
+          "caption": "A habitat web links living things with sunlight, soil, water, air, and shelter.",
+          "points": [
+            "A habitat web links living things with sunlight",
+            "soil",
+            "water",
+            "air"
+          ]
+        }
+      ],
+      "Food Chain and Food Web": [
+        {
+          "type": "diagram",
+          "title": "Food chain arrows",
+          "caption": "Arrows show energy moving from producer to consumer to predator.",
+          "points": [
+            "Arrows show energy moving from producer to consumer to predator."
+          ]
+        }
+      ],
+      "Photosynthesis": [
+        {
+          "type": "image",
+          "title": "Photosynthesis diagram",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Photosynthesis_en.svg/330px-Photosynthesis_en.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Photosynthesis",
+          "caption": "The diagram connects sunlight, water, carbon dioxide, glucose, and oxygen.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Flowering Plants": [
+        {
+          "type": "image",
+          "title": "Flowering plant",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Ranunculus_repens_1_%28cropped%29.JPG/330px-Ranunculus_repens_1_%28cropped%29.JPG",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Flowering_plant",
+          "caption": "A real flower helps students identify petals, stamen, pistil, stigma, and pollen.",
+          "credit": "Wikimedia/Wikipedia source page"
+        }
+      ],
+      "Respiratory and Circulatory System": [
+        {
+          "type": "diagram",
+          "title": "Body systems loop",
+          "caption": "The lungs bring oxygen in; the heart and blood move it around the body.",
+          "points": [
+            "The lungs bring oxygen in",
+            "the heart and blood move it around the body."
+          ]
+        }
+      ]
+    }
+  }
+}
