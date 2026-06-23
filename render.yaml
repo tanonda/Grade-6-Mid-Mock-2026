@@ -1,6 +1,7 @@
 services:
-  - type: static_site
+  - type: web
     name: grade-6-exam-revision
+    runtime: static
     buildCommand: npm run build
-    publishPath: dist
-    autoDeploy: true
+    staticPublishPath: dist
+    autoDeployTrigger: commit
