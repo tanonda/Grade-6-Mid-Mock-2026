@@ -909,6 +909,173 @@
           "explanation": "A strong answer should mention Preserve the Environment clearly and include a correct supporting detail, such as: Conservation means using resources wisely so they remain for the future.",
           "selfMark": true
         }
+      ],
+      "Vanuatu Geography and Culture": [
+        {
+          "question": "Who wrote the words to the national anthem 'Yumi, Yumi, Yumi'?",
+          "options": [
+            "Father Walter Lini",
+            "Francois Vincent Ayssav",
+            "Jimmy Stevens",
+            "George Kalkoa"
+          ],
+          "correctIndex": 1,
+          "explanation": "The lyrics were written by Francois Vincent Ayssav."
+        },
+        {
+          "question": "What are the colors of Vanuatu's flag?",
+          "options": [
+            "Red, white and blue",
+            "Red, black, green and yellow",
+            "Green, yellow and white",
+            "Black and red only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Vanuatu's flag has four vertical stripes: red (grief), black (darkness of past), green (fertility of land), and yellow (sun)."
+        },
+        {
+          "question": "What does the boar's tusk on Vanuatu's flag symbolize?",
+          "options": [
+            "Cattle wealth",
+            "Guardianship",
+            "Wisdom",
+            "Agricultural abundance"
+          ],
+          "correctIndex": 1,
+          "explanation": "The boar's tusk represents guardianship and protection."
+        },
+        {
+          "question": "What do the namele leaves on Vanuatu's flag represent?",
+          "options": [
+            "Peace",
+            "Unity",
+            "Victory",
+            "Celebration"
+          ],
+          "correctIndex": 1,
+          "explanation": "The namele leaves symbolize unity and solidarity."
+        },
+        {
+          "question": "How many islands make up Vanuatu's Y-shaped archipelago?",
+          "options": [
+            "Around 30 islands",
+            "Around 50 islands",
+            "Around 83 islands",
+            "Around 100 islands"
+          ],
+          "correctIndex": 2,
+          "explanation": "Vanuatu consists of about 83 islands in a distinctive Y-shaped formation."
+        },
+        {
+          "question": "Vanuatu is situated in which geological feature?",
+          "options": [
+            "The Mediterranean Ring of Fire",
+            "The Caribbean Ring of Fire",
+            "The South Pacific Ring of Fire",
+            "The North Atlantic Ring of Fire"
+          ],
+          "correctIndex": 2,
+          "explanation": "Vanuatu lies in the South Pacific Ring of Fire, known for seismic and volcanic activity."
+        },
+        {
+          "question": "What is unique about funeral practices on Aneityum island?",
+          "options": [
+            "The deceased is buried in a tree",
+            "The family paints their faces white",
+            "They build sand drawings for the dead",
+            "They offer food to spirits for 7 days"
+          ],
+          "correctIndex": 0,
+          "explanation": "On Aneityum island, deceased family members are buried in trees as part of their funeral customs."
+        },
+        {
+          "question": "Who is the author of Vanuatu's national motto 'Long life to our land'?",
+          "options": [
+            "Iawawoi Rezel Samana",
+            "John Pomwantrew",
+            "French Vincent Ayssav",
+            "Alamount",
+          ],
+          "correctIndex": 0,
+          "explanation": "Iawawoi Rezel Samana is credited as the author of Vanuatu's national motto."
+        },
+        {
+          "question": "In Nagol, why do only men participate in the cultural dancing ceremony?
+          "type": "short",
+          "modelAnswer": "In Nagol, only men participate in the cultural dancing ceremony because it's a traditional rite of passage that teaches courage, unity, and cultural values passed down through generations. Women are not included in this specific traditional practice.",
+          "keywords": [
+            "nagol",
+            "men only",
+            "ceremony",
+            "cultural",
+            "tradition"
+          ],
+            "explanation": "The Nagol ceremony is traditionally male-only, preserving cultural values and passing down important lessons to young men about courage and unity, while maintaining the ceremonial integrity of the practice."
+        }
+      ],
+      "Preserve the Environment": [
+        {
+          "question": "Which custom leaf is used to mark a Tabu area?",
+          "options": [
+            "Banana leaf",
+            "Namele leaf",
+            "Coconut leaf",
+            "Hibiscus leaf"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Namele leaf is the custom sign of a Tabu area."
+        },
+        {
+          "question": "Which of these hurts fish habitats?",
+          "options": [
+            "Catching fish with a hand line",
+            "Throwing plastic rubbish into the sea",
+            "Planting mangroves",
+            "Setting a Tabu during breeding season"
+          ],
+          "correctIndex": 1,
+          "explanation": "Plastic in the sea pollutes water and harms fish and coral."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Preserve the Environment.",
+          "modelAnswer": "The environment includes land, sea, air, plants, animals, and people. Conservation means using resources wisely so they remain for the future.",
+          "keywords": [
+            "preserve",
+            "the",
+            "environment",
+            "includes",
+            "plants",
+            "animals"
+          ],
+          "explanation": "A strong answer should mention Preserve the Environment clearly and include a correct supporting detail, such as: Conservation means using resources wisely so they remain for the future.",
+          "selfMark": true
+        }
+      ],
+          "options": [
+            "Catching fish with a hand line",
+            "Throwing plastic rubbish into the sea",
+            "Planting mangroves",
+            "Setting a Tabu during breeding season"
+          ],
+          "correctIndex": 1,
+          "explanation": "Plastic in the sea pollutes water and harms fish and coral."
+        },
+        {
+          "type": "short",
+          "question": "Short answer: Write one important fact you remember about Preserve the Environment.",
+          "modelAnswer": "The environment includes land, sea, air, plants, animals, and people. Conservation means using resources wisely so they remain for the future.",
+          "keywords": [
+            "preserve",
+            "the",
+            "environment",
+            "includes",
+            "plants",
+            "animals"
+          ],
+          "explanation": "A strong answer should mention Preserve the Environment clearly and include a correct supporting detail, such as: Conservation means using resources wisely so they remain for the future.",
+          "selfMark": true
+        }
       ]
     },
     "Health": {
