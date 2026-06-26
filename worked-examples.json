@@ -3,7 +3,13 @@
     "format": "worked-examples",
     "language": "en",
     "purpose": "Question + model answer + grading tip for every topic. Shown as reveal-cards and printable booklet.",
-    "subjects": ["Maths", "English", "Social Science", "Health", "Science"]
+    "subjects": [
+      "Maths",
+      "English",
+      "Social Science",
+      "Health",
+      "Science"
+    ]
   },
   "examples": {
     "Maths": {
@@ -16,18 +22,18 @@
         {
           "question": "What number do you get if you have 3 Millions, 5 Ten Thousands, 2 Hundreds, and 6 Ones?",
           "answer": "3,050,206",
-          "tip": "Watch out for columns that were not mentioned (like Hundred Thousands or Tens) — they must be filled with a placeholder zero 0."
+          "tip": "Watch out for columns that were not mentioned (like Hundred Thousands or Tens) \u2014 they must be filled with a placeholder zero 0."
         }
       ],
       "Angles": [
         {
-          "question": "Classify the following angle based on its measurement: 135°.",
+          "question": "Classify the following angle based on its measurement: 135\u00b0.",
           "answer": "Obtuse angle",
-          "tip": "It is obtuse because it is larger than 90° but smaller than 180°."
+          "tip": "It is obtuse because it is larger than 90\u00b0 but smaller than 180\u00b0."
         },
         {
-          "question": "If a perfectly straight line (180°) is split into two angles, and one angle measures 70°, what is the measure of the second angle?",
-          "answer": "180° − 70° = 110°",
+          "question": "If a perfectly straight line (180\u00b0) is split into two angles, and one angle measures 70\u00b0, what is the measure of the second angle?",
+          "answer": "180\u00b0 \u2212 70\u00b0 = 110\u00b0",
           "tip": "Always show the subtraction work to guarantee full marks."
         }
       ],
@@ -39,19 +45,19 @@
         },
         {
           "question": "A farmer has 5,000 Vatu. He spends 1,250 Vatu on tools. How much Vatu does he have left?",
-          "answer": "5,000 − 1,250 = 3,750 Vatu",
+          "answer": "5,000 \u2212 1,250 = 3,750 Vatu",
           "tip": "Don't forget to include the unit \"Vatu\" at the end of the answer!"
         }
       ],
       "Multiplying": [
         {
-          "question": "Calculate: 125 × 12.",
-          "answer": "125 × 2 = 250\n125 × 10 = 1250\n250 + 1250 = 1,500",
+          "question": "Calculate: 125 \u00d7 12.",
+          "answer": "125 \u00d7 2 = 250\n125 \u00d7 10 = 1250\n250 + 1250 = 1,500",
           "tip": "When multiplying by the tens digit, remember to add a placeholder 0 on the second line."
         },
         {
           "question": "A shop buys 15 boxes of biscuits. If each box contains exactly 10 biscuits, how many biscuits are there altogether?",
-          "answer": "15 × 10 = 150 biscuits",
+          "answer": "15 \u00d7 10 = 150 biscuits",
           "tip": "Multiply by 10 quickly by just adding a zero to the end of the first number."
         }
       ],
@@ -63,24 +69,23 @@
         },
         {
           "question": "Calculate the total area of a square room where every side is exactly 4 meters long.",
-          "answer": "Area = 4m × 4m = 16 m² (or 16 square meters)",
-          "tip": "Area always uses square units, so remember to write m² instead of just m."
+          "answer": "Area = 4m \u00d7 4m = 16 m\u00b2 (or 16 square meters)",
+          "tip": "Area always uses square units, so remember to write m\u00b2 instead of just m."
         }
       ],
       "Number Pattern": [
         {
-          "question": "Identify the rule and find the next number in this sequence: 2, 5, 8, 11, …",
+          "question": "Identify the rule and find the next number in this sequence: 2, 5, 8, 11, \u2026",
           "answer": "Rule = Add 3; Next number = 14",
           "tip": "Check the gap between multiple numbers to prove the rule works for the whole pattern."
         },
         {
-          "question": "Find the missing number in this pattern: 30, 25, 20, …, 10.",
+          "question": "Find the missing number in this pattern: 30, 25, 20, \u2026, 10.",
           "answer": "15",
           "tip": "The numbers are decreasing, so the rule is subtract 5."
         }
       ]
     },
-
     "English": {
       "Novel": [
         {
@@ -115,7 +120,7 @@
         {
           "question": "Fill in the blank with an action verb: \"The students ________ to school yesterday.\"",
           "answer": "walked (or ran, traveled)",
-          "tip": "Pay attention to time keywords like \"yesterday\" — the verb must be written in the past tense (usually ending in -ed)."
+          "tip": "Pay attention to time keywords like \"yesterday\" \u2014 the verb must be written in the past tense (usually ending in -ed)."
         }
       ],
       "Vocabulary": [
@@ -155,7 +160,6 @@
         }
       ]
     },
-
     "Social Science": {
       "Geographers Tools": [
         {
@@ -172,7 +176,7 @@
       "Representing Geography": [
         {
           "question": "If a map scale says 1 cm = 2 km, what real distance is a line that measures 5 cm?",
-          "answer": "5 × 2 = 10 kilometers",
+          "answer": "5 \u00d7 2 = 10 kilometers",
           "tip": "Multiply the map measurements by the scale number."
         },
         {
@@ -240,9 +244,40 @@
           "answer": "Throwing plastic rubbish into the sea.",
           "tip": "Keep your environmental problems realistic and clear."
         }
+      ],
+      "Vanuatu National Symbols, Geography & Traditions": [
+        {
+          "question": "Who wrote and composed the Vanuatu National Anthem song, \"Yumi, Yumi, Yumi\"?",
+          "answer": "Fran\u00e7ois Vincent Ayssav wrote and composed \"Yumi, Yumi, Yumi\".",
+          "tip": "Remember the name Fran\u00e7ois Vincent Ayssav \u2014 he created both the words and music for our national anthem when Vanuatu became independent in 1980."
+        },
+        {
+          "question": "What are the four primary colors on the Vanuatu flag, and what does each color represent?",
+          "answer": "Red = the blood that unites all ni-Vanuatu people. Black = the Melanesian people and our heritage. Green = the richness of our islands and agriculture. Yellow = the light of Christianity.",
+          "tip": "Use the memory trick: Red for Blood (unity), Black for People (Melanesian), Green for Land (agriculture), Yellow for Light (Christianity). Also remember the boar's tusk means prosperity and the namele leaves mean peace."
+        },
+        {
+          "question": "What are the main geographical features of Vanuatu?",
+          "answer": "Vanuatu is a Y-shaped archipelago of about 83 islands located on the Pacific Ring of Fire. It has active volcanoes (like Mt. Yasur on Tanna and Mt. Garet on Gaua), earthquakes, lush rainforests, and coral reefs.",
+          "tip": "Remember the key facts: Y-shape, 83 islands, Ring of Fire, volcanoes, and earthquakes. Mention specific volcanoes like Mt. Yasur for extra marks."
+        },
+        {
+          "question": "Describe the traditional Aneityum funeral practice for important high chiefs (natimarid).",
+          "answer": "High chiefs were buried beneath the floor of their house with the head left exposed. After some time, the skull was removed and taken to a sacred site to be venerated (honored and respected) by the community.",
+          "tip": "Focus on three steps: buried under house floor \u2192 head left exposed \u2192 skull removed to sacred site for veneration. This shows great respect for the chief."
+        },
+        {
+          "question": "Who wrote our national motto \"Long God yumi stanap\" and what does it mean?",
+          "answer": "Iawawoi Rezel Samana developed and wrote the motto. It means \"In God we stand\" and is written on the national coat of arms.",
+          "tip": "Remember Iawawoi Rezel Samana as the author. The motto is in Bislama: 'Long God yumi stanap' = 'In God we stand.'"
+        },
+        {
+          "question": "What is the Nagol (Land Diving) practice, and why are only men allowed to jump?",
+          "answer": "Nagol is a traditional land diving ceremony on Pentecost Island where men jump from tall wooden towers with vines tied to their ankles. Only men are allowed because it is a test of male bravery and an initiation rite. Strict custom taboos say it is indecent for women to dive in traditional grass skirts, and their presence could affect the spiritual power of the vines.",
+          "tip": "Mention three reasons: test of male bravery, initiation rite, and strict custom taboos about women. Also mention it happens on Pentecost Island during the yam harvest season."
+        }
       ]
     },
-
     "Health": {
       "Food and Drinking Packaging": [
         {
@@ -365,7 +400,6 @@
         }
       ]
     },
-
     "Science": {
       "What is Compost": [
         {
@@ -435,7 +469,7 @@
         },
         {
           "question": "Draw a simple 3-step food chain using local island items.",
-          "answer": "Cabbage plant (Producer) → Caterpillar (Consumer) → Bird (Secondary Consumer)",
+          "answer": "Cabbage plant (Producer) \u2192 Caterpillar (Consumer) \u2192 Bird (Secondary Consumer)",
           "tip": "Ensure arrows point in the direction of energy flow (from the eaten item to the eater)."
         }
       ],

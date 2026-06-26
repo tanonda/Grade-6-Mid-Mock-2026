@@ -216,6 +216,52 @@
           "caption": "Students can compare damaged land with healthy habitats and tabu areas.",
           "credit": "Wikimedia/Wikipedia source page"
         }
+      ],
+      "Vanuatu National Symbols, Geography & Traditions": [
+        {
+          "type": "image",
+          "title": "Flag of Vanuatu",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_Vanuatu_%28official%29.svg/330px-Flag_of_Vanuatu_%28official%29.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Flag_of_Vanuatu",
+          "caption": "The Vanuatu flag: Red (blood unity), Black (Melanesian people), Green (rich land), Yellow (Christianity light). The boar's tusk and namele leaves symbolize prosperity and peace.",
+          "credit": "Wikimedia/Wikipedia source page"
+        },
+        {
+          "type": "diagram",
+          "title": "Flag Color Meanings",
+          "caption": "Remember what each color on the Vanuatu flag represents.",
+          "points": [
+            "RED = The blood that unites all ni-Vanuatu people",
+            "BLACK = The Melanesian people and our heritage",
+            "GREEN = The richness of our islands and agriculture",
+            "YELLOW = The light of Christianity and peace",
+            "Boar's Tusk = Prosperity and customs",
+            "Namele Leaves = Peace and custom law"
+          ]
+        },
+        {
+          "type": "diagram",
+          "title": "Vanuatu Geography Facts",
+          "caption": "Key geographical features of Vanuatu to remember for your exam.",
+          "points": [
+            "Y-shaped archipelago of about 83 islands",
+            "Located on the Pacific Ring of Fire",
+            "Has many active volcanoes (Mt. Yasur on Tanna, Mt. Garet on Gaua)",
+            "Frequent earthquakes due to moving tectonic plates",
+            "Six provinces from north to south: Torba, Sanma, Penama, Malampa, Shefa, Tafea"
+          ]
+        },
+        {
+          "type": "diagram",
+          "title": "National Symbols Summary",
+          "caption": "Key national symbols every Grade 6 student should know.",
+          "points": [
+            "Anthem: 'Yumi, Yumi, Yumi' by Fran\u00e7ois Vincent Ayssav",
+            "Motto: 'Long God yumi stanap' by Iawawoi Rezel Samana",
+            "Nagol: Pentecost Island land diving \u2014 men only (test of bravery)",
+            "Aneityum: Chiefs buried under house floor, head exposed for veneration"
+          ]
+        }
       ]
     },
     "Health": {
